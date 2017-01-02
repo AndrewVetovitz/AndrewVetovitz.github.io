@@ -1,0 +1,326 @@
+/**HEADER**/
+/*My name*/
+.navbar-default .navbar-brand {
+    color:white;
+    font-size: 60px;
+    font-family: 'Allan', cursive;
+    padding-left: 1em;
+}
+
+.navbar-default .navbar-brand:focus {
+	color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+    cursor: default;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+}
+
+@media (min-width: 0px) and (max-width: 1320px) {
+	.navbar-collapse.collapse {
+	    display: none !important;
+	}
+	.navbar-collapse.collapse.in {
+	    display: block !important;
+	}
+	.navbar-header .collapse, .navbar-toggle {
+	    display:block !important;
+	}
+	.navbar-header {
+	    float:none;
+	}
+}
+
+/*NAVIGATION TABS*/
+/*Nav bar transparent at the top of the page*/
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/*Open Nav bar transparent border*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+/*Open Nav bar transparent border*/
+.navbar-collapse {
+    -webkit-box-shadow: inset 0 0px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 0px 0 rgba(255,255,255,.1); 
+  }
+
+
+/*Nav bar colored in as scrolling*/
+.top-nav-collapse {
+    padding: 10px;
+    background-color: #2D3047;
+    border-color: transparent;
+}
+
+/*Page links fonts and color*/
+.navbar-default .navbar-nav > li > a {
+    color:white;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+/*Padding on Na bar*/
+.navbar-default .navbar-right {
+   	padding-right: 10em;
+   	padding-left: 4em;
+}
+
+/*Hover over words read color for navbar*/
+.navbar-default .navbar-nav > li > a:hover {
+	color: red;
+}
+
+/*On click nav Bar set color to red*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover{
+	background-color: transparent;
+	color: red;
+}
+
+/*Makes the button red on click, can be used to modify buttons indiviually, for JS*/
+.clickedColor {
+	color: red !important;
+}
+
+/*Good stuff here*/
+#contactHeader{
+	font-size: 4.1vw;
+	font-size: 6vmax;
+}
+
+/**BODY**/
+/**INTRODUCTION SECTION**/
+/*Body Setup*/
+.intro-section {
+    height: 100%;
+    padding-top: 0px;
+    text-align: center;
+    background: #fff;
+}
+
+/*Intro image*/
+.intro {
+  position: fixed; 
+  top: 0%; 
+  left: -60%; 
+  width: 200%; 
+  height: 200%;
+}
+
+.adjust{
+	padding: 0px;
+	width: 100%;
+    height: 1100px;
+    overflow: hidden;
+}
+
+.intro img {
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+/**ABOUT SECTION**/
+/*Body Setup*/
+.about-section {
+	height: auto;
+    padding-top: 55px;
+    padding-bottom: 90px;
+    text-align: center;
+    background: #A8DADC;
+    color: #F1FAEE;
+}
+
+.aboutMeHeader {
+	background: #A8DADC;
+	font-family: 'Chivo', sans-serif;
+}
+
+.aboutMeText {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.8em;
+	color: black;
+	font-weight: bold;
+}
+
+.brainpicture {
+	width: 400px; 
+	background-color: #A8DADC;
+}
+
+/**EDUCATION SECTION**/
+/*Body Setup*/
+.education-section {
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 90px;
+    text-align: center;
+    background: #FF2D65;
+}
+
+/*Header Setup*/
+.educationHeader{
+	background: #FF2D65;
+	font-family: 'Trade Winds', cursive;
+}
+
+#EducationDetails {
+	font-family: 'Exo', sans-serif;
+	font-size: 2.2em;
+}
+
+#EducationLocation {
+	font-family: 'Farsan', cursive;
+	font-size: 2.2em;
+	color: #F3FFBD;
+}
+
+#EducationInfo {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.4em;
+}
+
+.course{
+	color: #70C1B3;
+	font-family: 'Farsan', cursive;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+.classDescription{
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #F3FFBD;
+}
+
+.grade{
+	color: #247BA0;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+/*Pictures OSU*/
+.osuBlock{
+	width: 400px; 
+	height: 400px; 
+	background-color: white;
+}
+
+/*Visability of OSU picture*/
+@media (min-width: 0px) and (max-width: 991.5px) {
+	.osuBlock {
+	    display: none !important;
+	}
+}
+
+/**PROJECTS SECTION**/
+/*Body Setup*/
+.projects-section {
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 90px;
+    text-align: center;
+    background: #70C1B3;
+}
+
+.projectsHeader{
+ 	background: #70C1B3;
+ 	margin-bottom: 0px;
+ 	font-family: 'Bungee', cursive;
+}
+
+.projectImage{
+	display: block;
+	margin-bottom: 15px;
+	width: 275px;
+	height: 275px;
+	border-radius: 30px;
+	border-color: black;
+	border-width: 10px;
+}
+
+.projectText{
+	font-size: 2em;
+}
+
+.linkText a{
+	color: black;
+	text-decoration: none;
+}
+
+/**RESUME SECTION**/
+/*Body Setup*/
+.resume-section {
+    height: auto;
+    padding-top: 55px;
+    text-align: center;
+    background: #525B76;
+}
+
+.resumeHeader{
+	background-color: white;
+	padding-top: 0px;
+}
+
+.resumeHeader {
+	color: white;
+}
+
+.downloadresume {
+	font-family: 'Ceviche One', cursive;
+	font-size: 3.5em;
+}
+
+.downloadresume a {
+	color: white;
+	text-decoration: underline;
+}
+
+/**CONTACT SECTION**/
+/*Body Setup*/
+.contact-section {
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 90px;
+    text-align: center;
+    background: #4D75A0;
+}
+
+.blueUnderline{
+	font-family: 'Yatra One', cursive;
+	color: #F45B69;
+	text-decoration: underline;
+	font-size: 2.6em;
+}
+
+span.email{
+	display: inline-block;
+}
+
+.contactText {
+	margin-bottom: 35px;
+	color: #E4FDE1;
+	font-family: 'Roboto', sans-serif;
+}
+
+.externaltext {
+	font-size: 2.5em;
+	text-decoration: underline;"
+
+}
+
+span.externaltext a {
+	color: #E4FDE1;
+	font-family: 'Roboto', sans-serif;
+
+}
