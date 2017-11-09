@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Allan|Space+Mono');
+
+html,
+body {
+  padding-top: ($nav-height - $nav-padding) / 2;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+}
