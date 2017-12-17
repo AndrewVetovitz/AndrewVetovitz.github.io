@@ -21,7 +21,7 @@ export class NavbarComponent implements OnInit {
     this.updateName(window.innerWidth);
   }
 
-  private updateName(width: any) {
+  private updateName(width: number) {
     if(width > 610){
       this.name = "Andrew Gunner Vetovitz";
     } else {
