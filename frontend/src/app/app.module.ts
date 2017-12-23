@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
-import { WorkComponent } from './work/work.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 
@@ -19,7 +18,6 @@ import { ProjectsComponent } from './projects/projects.component';
     NavbarComponent,
     ResumeComponent,
     ContactComponent,
-    WorkComponent,
     HomeComponent,
     AboutComponent,
     ProjectsComponent

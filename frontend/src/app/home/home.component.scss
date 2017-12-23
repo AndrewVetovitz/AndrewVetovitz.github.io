@@ -1,7 +1,11 @@
 @import '../../_variables.scss';
 
 div {
-  height: 100%;
+  height: -webkit-calc(100% - #{$nav-height});
+  height:    -moz-calc(100% - #{$nav-height});
+  height:         calc(100% - #{$nav-height});
+
+  width: 100%;
   background-color: #E15554;
 }
 

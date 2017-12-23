@@ -1,4 +1,4 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,26 +6,10 @@ import { Component, HostListener, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  name: string;
 
-  constructor() {
-  }
+  constructor() { }
 
-  public innerWidth: any;
   ngOnInit() {
-    this.updateName(window.innerWidth);
   }
 
-  @HostListener('window:resize', ['$event'])
-  onResize(event: any) {
-    this.updateName(window.innerWidth);
-  }
-
-  private updateName(width: number) {
-    if(width > 610){
-      this.name = "Andrew Gunner Vetovitz";
-    } else {
-      this.name = "Andrew G. Vetovitz";
-    }
-  }
 }
