@@ -4,16 +4,15 @@ $bc: #2D3047;
 $nav-text-color: #FFF;
 $hover-color: #F00;
 
-nav {
+//navbar background
+.nav-background {
   background-color: $bc;
-  //padding: $nav-padding;
   min-height: $nav-height;
+}
 
-  //make text un-selectable
-  -webkit-user-select: none; /* Chrome/Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+ */
-  user-select: none;
+//navbar items
+ul {
+  padding: $nav-padding;
 
   .navbar-brand {
     color:white;
@@ -23,19 +22,20 @@ nav {
   }
 
   li a {
-    color: $nav-text-color;
-    font-size: 21px;
-    font-family: 'Space Mono', monospace;
-    text-transform: uppercase;
+      //navigation links design
+      color: $nav-text-color;
+      font-size: 21px;
+      font-family: 'Space Mono', monospace;
+      text-transform: uppercase;
+
+      //hover color
+      &:hover {
+        color: $hover-color;
+      }
+
+      //active link color
+      &.active-link {
+        color: $hover-color;
+      }
+    }
   }
-}
-
-//.navbar-inverse .navbar-nav > .active > a {
-//  background-color: $bc;
-//}
-//
-//.active-link {
-//  color: $hover-color !important;
-//}
-
-

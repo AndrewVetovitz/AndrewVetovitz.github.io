@@ -1,14 +1,36 @@
 @import '../../_variables.scss';
 
 div {
-  height: -webkit-calc(100% - #{$nav-height});
-  height:    -moz-calc(100% - #{$nav-height});
-  height:         calc(100% - #{$nav-height});
+  //height: -webkit-calc(100% - #{$nav-height});
+  //height:    -moz-calc(100% - #{$nav-height});
+  //height:         calc(100% - #{$nav-height});
 
   width: 100%;
-  background-color: #E15554;
 }
 
 .container {
   padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+//Page header
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+//form
+.form-group label:after {
+  content:" *";
+  color:red;
+}
+
+//button
+.custom-button {
+  display:block;
+  border: none;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  outline: none;
+  margin: auto;
 }

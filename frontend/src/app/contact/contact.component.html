@@ -1,5 +1,30 @@
 <div>
   <div class="container">
-    Contact
+    <div class="row">
+      <div class="col-md-5">
+        <h1 class="text-center">Contact me today</h1>
+        <div class="text-center">Do you have a project that you want brought to life or just need to talk? Reach out to me!</div>
+      </div>
+      <div class="col-md-7">
+        <form (ngSubmit)="submit()" #form>
+          <div class="form-group">
+            <!--<strong><label>Full Name</label></strong>-->
+            <!--<strong><label for="firstName">First Name</label></strong>-->
+            <input type="text" style="width:50%" class="form-control .d-inline-block" id="firstName" required [(ngModel)]="model.firstName" name="firstName" #firstName="ngModel">
+            <!--<strong><label for="lastName">Last Name</label></strong>-->
+            <input type="text" style="width:50%" class="form-control .d-inline-block" id="lastName" required [(ngModel)]="model.lastName" name="lastName" #lastName="ngModel">
+          </div>
+          <div class="form-group">
+            <strong><label for="email">Email</label></strong>
+            <input type="email" class="form-control" id="email" required [(ngModel)]="model.email" name="email" #email="ngModel">
+          </div>
+          <div class="form-group">
+            <strong><label for="message">Message</label></strong>
+            <textarea class="form-control" id="message" rows="6" required [(ngModel)]="model.message" name="message" #message="ngModel"></textarea>
+          </div>
+          <button type="submit" class="custom-button">Send Message</button>
+        </form>
+      </div>
+    </div>
   </div>
 </div>
