@@ -21,12 +21,12 @@ export class NavbarComponent implements OnInit {
   }
 
   private updateName(width: number) {
-    if(width > 650){
+    if(width >= 650){
       this.navClass = "justify-content-end";
     } else {
       this.navClass = "justify-content-center";
 
-      if(width < 350){
+      if(width <= 375){
         this.navClass += " " + "flex-column";
       }
     }

@@ -1,30 +1,44 @@
 <div>
   <div class="container">
-    <div class="row">
-      <div class="col-md-5">
-        <h1 class="text-center">Contact me today</h1>
-        <div class="text-center">Do you have a project that you want brought to life or just need to talk? Reach out to me!</div>
+    <h1 class="text-center">Contact me today</h1>
+    <div class="text-center">Do you have a project that you want brought to life or just need to talk? Reach out to me!</div>
+    <br>
+    <br>
+    <form (ngSubmit)="submit()" [formGroup]="form" novalidate>
+      <div class="form-group">
+        <label class="asterisk"><strong>Full Name</strong></label>
+        <div [ngClass]="layoutClass">
+          <div [ngClass]="spaceClass">
+            <input [ngClass]="cssInvalid('firstname')" class="form-control width100" formControlName="firstname">
+            <label><strong>First Name</strong></label>
+          </div>
+          <div class="nameSpace"></div>
+          <div [ngClass]="spaceClass">
+            <input [ngClass]="cssInvalid('lastname')" class="form-control width100" formControlName="lastname">
+            <label><strong>Last Name</strong></label>
+          </div>
+        </div>
       </div>
-      <div class="col-md-7">
-        <form (ngSubmit)="submit()" #form>
-          <div class="form-group">
-            <!--<strong><label>Full Name</label></strong>-->
-            <!--<strong><label for="firstName">First Name</label></strong>-->
-            <input type="text" style="width:50%" class="form-control .d-inline-block" id="firstName" required [(ngModel)]="model.firstName" name="firstName" #firstName="ngModel">
-            <!--<strong><label for="lastName">Last Name</label></strong>-->
-            <input type="text" style="width:50%" class="form-control .d-inline-block" id="lastName" required [(ngModel)]="model.lastName" name="lastName" #lastName="ngModel">
-          </div>
-          <div class="form-group">
-            <strong><label for="email">Email</label></strong>
-            <input type="email" class="form-control" id="email" required [(ngModel)]="model.email" name="email" #email="ngModel">
-          </div>
-          <div class="form-group">
-            <strong><label for="message">Message</label></strong>
-            <textarea class="form-control" id="message" rows="6" required [(ngModel)]="model.message" name="message" #message="ngModel"></textarea>
-          </div>
-          <button type="submit" class="custom-button">Send Message</button>
-        </form>
+      <div class="form-group">
+        <strong><label class="asterisk">Email</label></strong>
+        <input [ngClass]="cssInvalid('email')" type="email" class="form-control" formControlName="email">
       </div>
-    </div>
+      <div class="form-group">
+        <label class="asterisk"><strong>Message</strong></label>
+        <textarea [ngClass]="cssInvalid('message')" class="form-control" formControlName="message"></textarea>
+      </div>
+
+      <div class="parent">
+        <div *ngIf="isSubmitted">
+          <div class="circle"><strong>You're Awesome!</strong></div>
+        </div>
+        <button class="custom-button">
+          Message me
+        </button>
+      </div>
+      <div class="text-center" *ngIf="isSubmitted">
+        I'll get back to you as soon as I can!
+      </div>
+    </form>
   </div>
 </div>

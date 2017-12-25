@@ -2,7 +2,7 @@
 
 $bc: #2D3047;
 $nav-text-color: #FFF;
-$hover-color: #F00;
+$nav-hover-color: $red;
 
 //navbar background
 .nav-background {
@@ -30,12 +30,12 @@ ul {
 
       //hover color
       &:hover {
-        color: $hover-color;
+        color: $nav-hover-color;
       }
 
       //active link color
       &.active-link {
-        color: $hover-color;
+        color: $nav-hover-color;
       }
     }
   }
