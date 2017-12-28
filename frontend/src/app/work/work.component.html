@@ -1,12 +1,18 @@
-<div>
+<div class="background">
   <div class="container">
-    <h1 class="text-center header"> ───My Life───</h1>
-    <div class="row">
-      <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" style="padding-bottom: 0">
-        <img src="../../assets/images/goldman-sachs_logo.jpg" class="img-fluid life-images" alt="Goldman Sachs Logo">
-      </div>
-      <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-        test
+    <h1 class="text-center header">───My Life───</h1>
+    <div *ngFor="let info of workdata">
+      <div class="row content-buffer">
+        <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 image-buffer">
+          <img src="../../assets/images/goldman-sachs_logo.jpg" class="img-fluid life-images" alt="Goldman Sachs Logo">
+        </div>
+        <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <p class="name">{{ info.name }}</p>
+          <p class="title">{{ info.title }}</p>
+          <p class="location"><strong>{{ info.location }}</strong></p>
+          <p class="space">&nbsp;</p>
+          <p class="description">{{ info.description }}</p>
+        </div>
       </div>
     </div>
   </div>

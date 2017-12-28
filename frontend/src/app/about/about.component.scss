@@ -1,12 +1,13 @@
 @import '../../_variables.scss';
 
-div {
-  height: -webkit-calc(100% - #{$nav-height});
-  height:    -moz-calc(100% - #{$nav-height});
-  height:         calc(100% - #{$nav-height});
+$bc: #E8295C;
 
+div {
+  min-height: -webkit-calc(100% - #{$nav-height});
+  min-height:    -moz-calc(100% - #{$nav-height});
+  min-height:         calc(100% - #{$nav-height});
   width: 100%;
-  background-color: #E15554;
+  background-color: $bc;
 }
 
 @media (min-width: 1200px) {

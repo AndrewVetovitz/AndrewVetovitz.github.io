@@ -1,19 +1,54 @@
 @import '../../_variables.scss';
 
-div {
-  height: -webkit-calc(100% - #{$nav-height});
-  height:    -moz-calc(100% - #{$nav-height});
-  height:         calc(100% - #{$nav-height});
+$image-height: 245.38px;
+$image-width: $image-height * 1.23078;
+$bc: #70C1B3;
 
+.background {
+  min-height: -webkit-calc(100% - #{$nav-height});
+  min-height:    -moz-calc(100% - #{$nav-height});
+  min-height:         calc(100% - #{$nav-height});
   width: 100%;
-  background-color: #70C1B3;
+  background-color: $bc;
 }
 
 @media (min-width: 750px) {
-  .container{
-    max-width: 700px;
+  .container {
+    max-width: 925px;
   }
 }
+
+div img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.name {
+  font-size: 24px;
+  height: 34px;
+}
+
+.title {
+  height: 23px;
+}
+
+.space {
+  height: 23px;
+}
+
+.location {
+  font-size: 15px;
+  height: 23px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.image-buffer { margin-bottom: 20px; }
+
+.content-buffer { margin-bottom: 35px; }
 
 .container {
   padding-top: 3em;
@@ -22,10 +57,37 @@ div {
 
 .header {
   font-family: 'Bungee', cursive;
-  font-size: 4.1em;
+  font-size: 3.8em;
   font-weight: 500;
+  margin-bottom: 30px;
 }
 
 .life-images {
   border-radius: 30px;
+  height: $image-height;
+  width: $image-width;
 }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+  .header {
+    font-size: 2em;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) {
+  .header {
+    font-size: 3.5em;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

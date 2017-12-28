@@ -7,35 +7,37 @@ $nav-hover-color: $red;
 //navbar background
 .nav-background {
   background-color: $bc;
-  min-height: $nav-height;
+  //min-height: $nav-height;
 }
 
 //navbar items
 ul {
   padding: $nav-padding;
 
-  .navbar-brand {
-    color:white;
-    font-size: 60px;
-    font-family: 'Allan', cursive;
-    padding-left: 1em;
-  }
-
   li a {
-      //navigation links design
-      color: $nav-text-color;
-      font-size: 21px;
-      font-family: 'Space Mono', monospace;
-      text-transform: uppercase;
+    //navigation links design
+    color: $nav-text-color;
+    font-size: 21px;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
 
-      //hover color
-      &:hover {
-        color: $nav-hover-color;
-      }
+    // nav-bar items spacing and alignment
+    height: $nav-height - 2 * $nav-padding;
+    display: flex;
+    align-items: center;
 
-      //active link color
-      &.active-link {
-        color: $nav-hover-color;
-      }
+    &.nav-link {
+      text-align: center;
+    }
+
+    //hover color
+    &:hover {
+      color: $nav-hover-color;
+    }
+
+    //active link color
+    &.active-link {
+      color: $nav-hover-color;
     }
   }
+}
