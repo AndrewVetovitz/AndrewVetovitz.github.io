@@ -1,10 +1,10 @@
 <div>
   <div class="container">
     <h1 class="text-center">Contact me today</h1>
-    <div class="text-center">Do you have a project that you want brought to life or just need to talk? Reach out to me!</div>
+    <div class="text-center">Do you have a project that you want brought to life or just need to chat? Feel free to reach out to me!</div>
     <br>
     <br>
-    <form (ngSubmit)="submit()" [formGroup]="form" novalidate>
+    <form (ngSubmit)="submit()" [formGroup]="form">
       <div class="form-group">
         <label class="asterisk"><strong>Full Name</strong></label>
         <div [ngClass]="layoutClass">
@@ -28,6 +28,10 @@
         <textarea [ngClass]="cssInvalid('message')" class="form-control" formControlName="message"></textarea>
       </div>
 
+      <!--Anti scraper field-->
+      <input type="text" name="_gotcha" style="display:none" formControlName="_gotcha">
+
+      <!--submission button-->
       <div class="parent">
         <div *ngIf="isSubmitted">
           <div class="circle"><strong>You're Awesome!</strong></div>
@@ -40,5 +44,7 @@
         I'll get back to you as soon as I can!
       </div>
     </form>
+    <contact-links></contact-links>
   </div>
 </div>
+

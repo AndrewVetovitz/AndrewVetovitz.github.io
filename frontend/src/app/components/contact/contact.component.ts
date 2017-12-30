@@ -1,8 +1,9 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { FormsService } from '../../services/forms.service';
 
 @Component({
-  selector: 'app-contact',
+  selector: 'contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
@@ -14,7 +15,7 @@ export class ContactComponent implements OnInit {
   form: FormGroup;
   danger: string;
 
-  constructor() { }
+  constructor(private formService: FormsService) { }
 
   ngOnInit() {
     this.updateLayout(window.innerWidth);
@@ -36,6 +37,9 @@ export class ContactComponent implements OnInit {
       message: new FormControl('', {
         validators: [ Validators.required, Validators.min(1) ],
         updateOn: 'submit'
+      }),
+      _gotcha: new FormControl('', {
+        updateOn: 'submit'
       })
     });
   }
@@ -47,26 +51,32 @@ export class ContactComponent implements OnInit {
 
   private updateLayout(width: number) {
     if(width >= 400){
-      this.layoutClass = "form-inline";
-      this.spaceClass = "inputSpace"
+      this.layoutClass = 'form-inline';
+      this.spaceClass = 'inputSpace'
     } else {
-      this.spaceClass = "width100";
-      this.layoutClass = "";
+      this.spaceClass = 'width100';
+      this.layoutClass = '';
     }
   }
 
   public submit(){
     if (this.form.valid) {
       this.isSubmitted = true;
-      console.log(this.form.value.firstname);
-      console.log(this.form.value.lastname);
-      console.log(this.form.value.email);
-      console.log(this.form.value.message);
       this.submitted = false;
-      this.form.reset();
+
+      const body = {
+        name: this.form.value.firstname + ' ' + this.form.value.lastname,
+        email: this.form.value.email,
+        message: this.form.value.message,
+        _gotcha: this.form.value._gotcha
+      };
+
+      this.formService.postFormData(body).subscribe(data => {
+        console.log("success");
+        this.form.reset();
+      });
     } else {
       this.submitted = true;
-      console.log("invalid form");
     }
   }
 

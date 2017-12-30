@@ -1,8 +1,8 @@
-@import '../../_variables.scss';
+@import '../../../variables';
 
 $image-height: 245.38px;
 $image-width: $image-height * 1.23078;
-$bc: #70C1B3;
+$bc: #fff;
 
 .background {
   min-height: -webkit-calc(100% - #{$nav-height});

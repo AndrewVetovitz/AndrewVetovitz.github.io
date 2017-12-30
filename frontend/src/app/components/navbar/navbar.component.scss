@@ -1,13 +1,12 @@
-@import '../../variables';
+@import '../../../variables';
 
 $bc: #2D3047;
-$nav-text-color: #FFF;
+$nav-text-color: $white;
 $nav-hover-color: $red;
 
 //navbar background
 .nav-background {
   background-color: $bc;
-  //min-height: $nav-height;
 }
 
 //navbar items

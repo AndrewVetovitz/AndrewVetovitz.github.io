@@ -1,0 +1,43 @@
+@import '../../../variables';
+
+$bc: #7CB;
+
+.background {
+  min-height: -webkit-calc(100% - #{$nav-height});
+  min-height:    -moz-calc(100% - #{$nav-height});
+  min-height:         calc(100% - #{$nav-height});
+  width: 100%;
+  background-color: $bc;
+}
+
+.container {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.header {
+  font-family: 'Bungee', cursive;
+  font-size: 3.8em;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.projectImage {
+  display: block;
+  margin-bottom: 15px;
+  width: 275px;
+  height: 275px;
+  border-radius: 30px;
+  border-color: black;
+  border-width: 10px;
+}
+
+.projectText {
+  font-size: 2em;
+  font-family: "Helvetica Neue", Helvetica,Arial, sans-serif;
+}
+
+.linkText a {
+  color: black;
+  text-decoration: none;
+}

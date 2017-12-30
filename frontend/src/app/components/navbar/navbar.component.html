@@ -1,0 +1,44 @@
+<div class="nav-background fixed-top">
+  <div class="container">
+    <ul [ngClass]="navClass" class="nav">
+      <li class="nav-item">
+        <a pageScroll class="nav-link"
+           [pageScrollOffset]="80"
+           routerLink="/about"
+           href="#about"
+           routerLinkActive="active-link"
+           [routerLinkActiveOptions]="{ exact: true }">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a pageScroll class="nav-link"
+           [pageScrollOffset]="80"
+           routerLink="/work"
+           href="#work"
+           routerLinkActive="active-link"
+           [routerLinkActiveOptions]="{ exact: true }">Work <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a pageScroll class="nav-link"
+           [pageScrollOffset]="80"
+           routerLink="/projects"
+           href="#projects"
+           routerLinkActive="active-link"
+           [routerLinkActiveOptions]="{ exact: true }">Projects <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a pageScroll class="nav-link"
+           [pageScrollOffset]="80"
+           routerLink="/contact"
+           href="#contact"
+           routerLinkActive="active-link"
+           [routerLinkActiveOptions]="{ exact: true }">Contact <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<about id="about"></about>
+<work id="work"></work>
+<projects id="projects"></projects>
+<contact id="contact"></contact>
+
