@@ -2,95 +2,17 @@
   <div class="container">
     <h1 class="text-center header">{{ title }}</h1>
     <div class="row">
-      <!-- EMOJI HUNTER -->
-      <div class="col-xs-12 col-sm-12 col-md-4 text-left">
-        <nav style="text-align: center; padding: 30px;">
-          <!-- http://emojione.com/ -->
-          <a href="https://github.com/skylerreimer/Emoji-Hunter" target="_blank">
-            <img src="../../../assets/images/emoji.svg" alt="Emoij Hunter" class="img-fluid img-thumbnail center-block projectImage" style="text-align: center;">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 text-left" *ngFor="let project of projects">
+        <div class="project-container">
+          <a href="{{ project.link }}" target="_blank">
+            <img class="img-fluid img-thumbnail center-block project-image" src="{{ project.source }}" alt="{{ project.name }}">
           </a>
-          <span class="linkText">
-            <a href="https://github.com/skylerreimer/Emoji-Hunter" target="_blank">
-              <span class="projectText">Emoji Hunter</span>
+          <span class="link-text">
+            <a href="{{ project.link }}" target="_blank">
+              <span class="project-text">{{ project.name }}</span>
             </a>
           </span>
-        </nav>
-      </div>
-
-      <!-- EMOJI HUNTER -->
-      <div class="col-xs-12 col-sm-12 col-md-4 text-left">
-        <nav style="text-align: center; padding: 30px;">
-          <!-- http://emojione.com/ -->
-          <a href="https://github.com/skylerreimer/Emoji-Hunter" target="_blank">
-            <img src="../../../assets/images/emoji.svg" alt="Emoiji Hunter" class="img-fluid img-thumbnail center-block projectImage" style="text-align: center;">
-          </a>
-          <span class="linkText">
-            <a href="https://github.com/skylerreimer/Emoji-Hunter" target="_blank">
-              <span class="projectText">Emoji Hunter</span>
-            </a>
-          </span>
-        </nav>
-      </div>
-
-      <!-- EMOJI HUNTER -->
-      <div class="col-xs-12 col-sm-12 col-md-4 text-left">
-        <nav style="text-align: center; padding: 30px;">
-          <!-- http://emojione.com/ -->
-          <a href="https://github.com/skylerreimer/Emoji-Hunter" target="_blank">
-            <img src="../../../assets/images/emoji.svg" alt="Emoiji Hunter" class="img-fluid img-thumbnail center-block projectImage" style="text-align: center;">
-          </a>
-          <span class="linkText">
-            <a href="https://github.com/skylerreimer/Emoji-Hunter" target="_blank">
-              <span class="projectText">Emoji Hunter</span>
-            </a>
-          </span>
-        </nav>
-      </div>
-    </div>
-    <div class="row">
-      <!-- EMOJI HUNTER -->
-      <div class="col-xs-12 col-sm-12 col-md-4 text-left">
-        <nav style="text-align: center; padding: 30px;">
-          <!-- http://emojione.com/ -->
-          <a href="https://github.com/skylerreimer/Emoji-Hunter" target="_blank">
-            <img src="../../../assets/images/emoji.svg" alt="Emoiji Hunter" class="img-fluid img-thumbnail center-block projectImage" style="text-align: center;">
-          </a>
-          <span class="linkText">
-            <a href="https://github.com/skylerreimer/Emoji-Hunter" target="_blank">
-              <span class="projectText">Emoji Hunter</span>
-            </a>
-          </span>
-        </nav>
-      </div>
-
-      <!-- EMOJI HUNTER -->
-      <div class="col-xs-12 col-sm-12 col-md-4 text-left">
-        <nav style="text-align: center; padding: 30px;">
-          <!-- http://emojione.com/ -->
-          <a href="https://github.com/skylerreimer/Emoji-Hunter" target="_blank">
-            <img src="../../../assets/images/emoji.svg" alt="Emoiji Hunter" class="img-fluid img-thumbnail center-block projectImage" style="text-align: center;">
-          </a>
-          <span class="linkText">
-            <a href="https://github.com/skylerreimer/Emoji-Hunter" target="_blank">
-              <span class="projectText">Emoji Hunter</span>
-            </a>
-          </span>
-        </nav>
-      </div>
-
-      <!-- EMOJI HUNTER -->
-      <div class="col-xs-12 col-sm-12 col-md-4 text-left">
-        <nav style="text-align: center; padding: 30px;">
-          <!-- http://emojione.com/ -->
-          <a href="https://github.com/skylerreimer/Emoji-Hunter" target="_blank">
-            <img src="../../../assets/images/emoji.svg" alt="Emoiji Hunter" class="img-fluid img-thumbnail center-block projectImage" style="text-align: center;">
-          </a>
-          <span class="linkText">
-            <a href="https://github.com/skylerreimer/Emoji-Hunter" target="_blank">
-              <span class="projectText">Emoji Hunter</span>
-            </a>
-          </span>
-        </nav>
+        </div>
       </div>
     </div>
   </div>

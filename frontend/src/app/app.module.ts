@@ -1,15 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
 // Components
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { WorkComponent } from './components/work/work.component';
 import { AboutComponent } from './components/about/about.component';
-import { FooterComponent } from './components/contact-links/contact-links.component';
+import { AboutContentComponent } from './components/about-content/about-content.component';
+import { WorkComponent } from './components/work/work.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ContactLinksComponent } from './components/contact-links/contact-links.component';
 
 // Application routing
 import { appRouting } from './app.routing';
@@ -27,10 +27,11 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
     AppComponent,
     NavbarComponent,
     AboutComponent,
+    AboutContentComponent,
     WorkComponent,
+    ProjectsComponent,
     ContactComponent,
-    FooterComponent,
-    ProjectsComponent
+    ContactLinksComponent
   ],
   imports: [
     BrowserModule,

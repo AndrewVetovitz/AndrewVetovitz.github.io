@@ -1,22 +1,31 @@
 @import '../../../variables';
 
-$bc: #E8295C;
+$content-offset: 80%;
 
-div {
-  min-height: -webkit-calc(100% - #{$nav-height});
-  min-height:    -moz-calc(100% - #{$nav-height});
-  min-height:         calc(100% - #{$nav-height});
+.image-container {
+  background-image: url("../../../assets/images/mountain.png");
+  width: 100%
+}
+
+.title {
+  color: $white;
+  font-size: 30px;
+  line-height: 31px;
+  position: absolute;
+  top: 22%;
+  left: 0;
   width: 100%;
-  background-color: $bc;
 }
 
-@media (min-width: 1200px) {
-  .container{
-    max-width: 700px;
-  }
+.content {
+  position: absolute;
+  top: $content-offset;
+  left: 0;
+  width: 100%;
 }
 
-.container {
-  padding-top: 3em;
-  padding-bottom: 3em;
+.name {
+  font-size: 60px;
+  line-height: 20px;
+  font-family: 'Allan', cursive;
 }

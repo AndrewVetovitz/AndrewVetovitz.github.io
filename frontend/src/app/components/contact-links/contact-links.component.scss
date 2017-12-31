@@ -2,7 +2,12 @@
 
 $github-black: #111;
 $linkedin-blue: #0077B5;
+$resume-green: #6ABA77;
 $mail-red: #D33;
+
+.nav {
+  min-width: 150px;
+}
 
 .icon-container {
   width: 100px;
@@ -33,6 +38,11 @@ ul {
 
 .linkedin-styling {
   background-color: $linkedin-blue;
+  color: $white;
+}
+
+.resume-styling {
+  background-color: $resume-green;
   color: $white;
 }
 

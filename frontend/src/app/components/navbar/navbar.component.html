@@ -1,9 +1,9 @@
-<div class="nav-background fixed-top">
+<div [ngClass]="verticalNavClass" class="fixed-top easeTransition" (scroll)="onScroll($event)">
   <div class="container">
-    <ul [ngClass]="navClass" class="nav">
+    <ul [ngClass]="horizontalNavClass" class="nav">
       <li class="nav-item">
         <a pageScroll class="nav-link"
-           [pageScrollOffset]="80"
+           [pageScrollOffset]=offset
            routerLink="/about"
            href="#about"
            routerLinkActive="active-link"
@@ -11,7 +11,7 @@
       </li>
       <li class="nav-item">
         <a pageScroll class="nav-link"
-           [pageScrollOffset]="80"
+           [pageScrollOffset]=offset
            routerLink="/work"
            href="#work"
            routerLinkActive="active-link"
@@ -19,7 +19,7 @@
       </li>
       <li class="nav-item">
         <a pageScroll class="nav-link"
-           [pageScrollOffset]="80"
+           [pageScrollOffset]=offset
            routerLink="/projects"
            href="#projects"
            routerLinkActive="active-link"
@@ -27,7 +27,7 @@
       </li>
       <li class="nav-item">
         <a pageScroll class="nav-link"
-           [pageScrollOffset]="80"
+           [pageScrollOffset]=offset
            routerLink="/contact"
            href="#contact"
            routerLinkActive="active-link"

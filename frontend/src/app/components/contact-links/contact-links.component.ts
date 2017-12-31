@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './contact-links.component.html',
   styleUrls: ['./contact-links.component.scss']
 })
-export class FooterComponent implements OnInit {
+export class ContactLinksComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {

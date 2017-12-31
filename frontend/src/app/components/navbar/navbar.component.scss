@@ -9,6 +9,19 @@ $nav-hover-color: $red;
   background-color: $bc;
 }
 
+.nav-transparent-background {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 50px 0;
+  height: 50px;
+}
+
+.easeTransition {
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
 //navbar items
 ul {
   padding: $nav-padding;

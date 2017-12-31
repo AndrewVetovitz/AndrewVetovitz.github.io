@@ -4,11 +4,13 @@
     <div *ngFor="let info of workdata">
       <div class="row content-buffer">
         <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 image-buffer">
-          <img src="{{ info.url }}" class="img-fluid life-images" alt="{{ info.alttext }}">
+          <img src="{{ info.url }}" class="img-fluid work-images" alt="{{ info.alttext }}">
         </div>
         <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-          <p class="name">{{ info.name }}</p>
-          <p class="title">{{ info.title }}</p>
+          <h3 class="work-name">
+            <a  href="{{ info.link }}" target="_blank">{{ info.name }}</a>
+          </h3>
+          <h6 class="title"><strong>{{ info.title }}</strong></h6>
           <p class="location"><strong>{{ info.location }}</strong></p>
           <p class="space">&nbsp;</p>
           <p class="description">{{ info.description }}</p>

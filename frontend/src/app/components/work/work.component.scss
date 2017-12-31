@@ -24,12 +24,22 @@ div img {
   display: block;
 }
 
-.name {
-  font-size: 24px;
-  height: 34px;
+.work-images {
+  border-radius: 30px;
+  height: $image-height;
+  width: $image-width;
+}
+
+.work-name a {
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #2274A5;
+    font-size: 24px;
+    height: 34px;
 }
 
 .title {
+  color: #8F3985;
   height: 23px;
 }
 
@@ -39,7 +49,13 @@ div img {
 
 .location {
   font-size: 15px;
+  font-family: "Roboto", sans-serif;
   height: 23px;
+  color: #555;
+}
+
+.description {
+  color: #656D6D;
 }
 
 p {
@@ -57,37 +73,7 @@ p {
 
 .header {
   font-family: 'Bungee', cursive;
-  font-size: 3.8em;
+  font-size: calc(1.51316vw + 40.157px);
   font-weight: 500;
   margin-bottom: 30px;
 }
-
-.life-images {
-  border-radius: 30px;
-  height: $image-height;
-  width: $image-width;
-}
-
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575px) {
-  .header {
-    font-size: 2em;
-  }
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767px) {
-  .header {
-    font-size: 3.5em;
-  }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991px) {
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199px) {  }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  }

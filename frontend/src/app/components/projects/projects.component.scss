@@ -3,9 +3,6 @@
 $bc: #7CB;
 
 .background {
-  min-height: -webkit-calc(100% - #{$nav-height});
-  min-height:    -moz-calc(100% - #{$nav-height});
-  min-height:         calc(100% - #{$nav-height});
   width: 100%;
   background-color: $bc;
 }
@@ -15,14 +12,20 @@ $bc: #7CB;
   padding-bottom: 3em;
 }
 
+.project-container {
+  text-align: center;
+  padding: 30px;
+  min-width: 275px;
+}
+
 .header {
   font-family: 'Bungee', cursive;
-  font-size: 3.8em;
+  font-size: calc(1.039vw + 41.673px);
   font-weight: 500;
   margin-bottom: 30px;
 }
 
-.projectImage {
+.project-image {
   display: block;
   margin-bottom: 15px;
   width: 275px;
@@ -32,12 +35,12 @@ $bc: #7CB;
   border-width: 10px;
 }
 
-.projectText {
+.project-text {
   font-size: 2em;
   font-family: "Helvetica Neue", Helvetica,Arial, sans-serif;
 }
 
-.linkText a {
+.link-text a {
   color: black;
   text-decoration: none;
 }

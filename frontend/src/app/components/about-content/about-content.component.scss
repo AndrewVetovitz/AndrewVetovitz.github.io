@@ -1,0 +1,28 @@
+@import '../../../variables';
+
+.container {
+  padding-bottom: 3em;
+}
+
+@media (min-width: 750px) {
+  .container{
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 750px) {
+  .header-container {
+    max-width: 900px;
+  }
+}
+
+.header {
+  font-family: 'Bungee', cursive;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.about-text {
+  font-size: 26px;
+}
