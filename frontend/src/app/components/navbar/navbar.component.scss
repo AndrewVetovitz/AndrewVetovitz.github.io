@@ -5,26 +5,48 @@ $nav-text-color: $white;
 $nav-hover-color: $red;
 
 //navbar background
-.nav-background {
+.custom-nav {
   background-color: $bc;
 }
 
-.nav-transparent-background {
-  background-color: transparent;
-  border-color: transparent;
-  padding: 50px 0;
-  height: 50px;
+.navbar-brand {
+  color: white;
+  font-size: 60px;
+  font-family: 'Allan', cursive;
 }
 
-.easeTransition {
-  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-  transition: background .5s ease-in-out,padding .5s ease-in-out;
-}
+//@media (min-width:992px) {
+//  #mainNav {
+//    padding-top: 25px;
+//    padding-bottom: 25px;
+//    -webkit-transition: padding-top .3s, padding-bottom .3s;
+//    -moz-transition: padding-top .3s, padding-bottom .3s;
+//    transition: padding-top .3s, padding-bottom .3s;
+//    border: none;
+//    background-color: transparent
+//  }
+//  #mainNav .navbar-brand {
+//    -webkit-transition: all .3s;
+//    -moz-transition: all .3s;
+//    transition: all .3s
+//  }
+//  #mainNav .navbar-nav .nav-item .nav-link {
+//    padding: 1.1em 1em!important
+//  }
+//  #mainNav.navbar-shrink {
+//    padding-top: 0;
+//    padding-bottom: 0;
+//    background-color: #212529
+//  }
+//  #mainNav.navbar-shrink .navbar-brand {
+//    font-size: 1.25em;
+//    padding: 12px 0
+//  }
+//}
 
 //navbar items
 ul {
-  padding: $nav-padding;
+  //padding: $nav-padding;
 
   li a {
     //navigation links design
@@ -34,7 +56,7 @@ ul {
     text-transform: uppercase;
 
     // nav-bar items spacing and alignment
-    height: $nav-height - 2 * $nav-padding;
+    //height: $nav-height - 2 * $nav-padding;
     display: flex;
     align-items: center;
 

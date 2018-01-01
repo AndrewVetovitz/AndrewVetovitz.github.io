@@ -2,20 +2,23 @@
 
 $image-height: 245.38px;
 $image-width: $image-height * 1.23078;
-$bc: #fff;
 
 .background {
   min-height: -webkit-calc(100% - #{$nav-height});
   min-height:    -moz-calc(100% - #{$nav-height});
   min-height:         calc(100% - #{$nav-height});
   width: 100%;
-  background-color: $bc;
 }
 
 @media (min-width: 750px) {
   .container {
     max-width: 925px;
   }
+}
+
+.p-div {
+  margin-bottom: 5px;
+  min-height: 23px;
 }
 
 div img {
@@ -31,16 +34,15 @@ div img {
 }
 
 .work-name a {
-    text-decoration: none;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #2274A5;
-    font-size: 24px;
-    height: 34px;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #2274A5;
+  font-size: 24px;
+  height: 34px;
 }
 
 .title {
   color: #8F3985;
-  height: 23px;
 }
 
 .space {
@@ -50,7 +52,6 @@ div img {
 .location {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
-  height: 23px;
   color: #555;
 }
 
@@ -62,9 +63,21 @@ p {
   margin-bottom: 0;
 }
 
-.image-buffer { margin-bottom: 20px; }
+.image-buffer {
+  margin-bottom: 20px;
+}
 
-.content-buffer { margin-bottom: 35px; }
+.content-buffer {
+  margin-bottom: 35px;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+  .content-buffer {
+    width: 302px;
+    margin: auto;
+  }
+}
 
 .container {
   padding-top: 3em;
@@ -73,7 +86,14 @@ p {
 
 .header {
   font-family: 'Bungee', cursive;
-  font-size: calc(1.51316vw + 40.157px);
+  font-size: calc(1.51316vw + 41.673px);
   font-weight: 500;
   margin-bottom: 30px;
+}
+
+@media (max-width: 360px) {
+  .header {
+    width: 315px;
+    font-size: 46.848px;
+  }
 }

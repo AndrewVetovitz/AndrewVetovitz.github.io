@@ -16,8 +16,8 @@ export const WORKDATA: Workdata[] = [
     link: "https://scottsmiraclegro.com/",
     description: "" +
     "This was my first time work on web applications. " +
-    "The experience gave me new insite into buisness teamwork and working on application backend and core API functionality. " +
-    "I also experience my first buisness mistakes and trying to solve them, driving core buisness growth. "},
+    "Giving me new insite into buisness teamwork and working on core application backend and API functionality. " +
+    "I also experienced my first buisness mistakes and trying to solve them, driving core buisness growth. "},
   { name: "IFAAADev",
     url: "../../../assets/images/IFAADev.png",
     alttext: "IFAADev",

@@ -19,9 +19,6 @@ import { ReactiveFormsModule } from '@angular/forms'
 import { FormsService } from './services/forms.service';
 import { HttpClientModule } from '@angular/common/http';
 
-// Page scrolling
-import { NgxPageScrollModule } from 'ngx-page-scroll';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +34,6 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
     BrowserModule,
     ReactiveFormsModule,
     HttpClientModule,
-    NgxPageScrollModule,
     appRouting
   ],
   providers: [
