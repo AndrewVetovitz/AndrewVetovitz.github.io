@@ -20,7 +20,7 @@ export class AboutContentComponent implements OnInit {
   }
 
   private updateTitle(width: number) {
-    if(width <= 575) {
+    if(width <= 749) {
       this.title = 'my aspiration';
     } else {
       this.title = '───my aspiration───';

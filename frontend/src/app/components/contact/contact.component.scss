@@ -6,9 +6,7 @@ $diameter: 175px;
 $radius: $diameter / 2;
 
 div {
-  min-height: -webkit-calc(100% - #{$nav-height});
-  min-height:    -moz-calc(100% - #{$nav-height});
-  min-height:         calc(100% - #{$nav-height});
+  min-height: 100%;
   width: 100%;
 }
 

@@ -7,12 +7,31 @@ $nav-hover-color: $red;
 //navbar background
 .custom-nav {
   background-color: $bc;
+  min-height: $nav-height;
 }
 
 .navbar-brand {
   color: white;
-  font-size: 60px;
+  font-size: 56px;
   font-family: 'Allan', cursive;
+  padding: 0 15px;
+  height: $nav-height;
+  line-height: $nav-height;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: ($nav-height - 34px) / 2;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: ($nav-height - 27px) / 2;
+    padding-bottom: ($nav-height - 27px) / 2;
+    line-height: 27px;
+  }
 }
 
 //@media (min-width:992px) {
@@ -46,8 +65,6 @@ $nav-hover-color: $red;
 
 //navbar items
 ul {
-  //padding: $nav-padding;
-
   li a {
     //navigation links design
     color: $nav-text-color;
@@ -55,8 +72,9 @@ ul {
     font-family: 'Space Mono', monospace;
     text-transform: uppercase;
 
+    padding: 15px;
+
     // nav-bar items spacing and alignment
-    //height: $nav-height - 2 * $nav-padding;
     display: flex;
     align-items: center;
 
@@ -70,7 +88,7 @@ ul {
     }
 
     //active link color
-    &.active-link {
+    &.active {
       color: $nav-hover-color;
     }
   }

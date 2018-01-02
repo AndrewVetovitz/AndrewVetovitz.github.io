@@ -1,29 +1,34 @@
 @import '../../../variables';
 
-.image-container {
-  max-width: 100%;
-  height: 2050px;
-  position: relative;
+.about-container {
+  display: block;
 }
 
-.custom-image {
+.image-container {
   width: 100%;
+  height: auto;
+  position: relative;
+  float: right;
+  overflow: visible;
+}
+
+.image {
+  background-image: url("../../../assets/images/mountain.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 1848px;
+  width: 100%;
+  position: relative;
+  overflow: visible;
 }
 
 .title {
+  margin-top: -1500px;
   color: $white;
   font-size: 30px;
   line-height: 31px;
-  position: absolute;
-  top: 20%;
-  left: 0;
-  width: 100%;
-}
-
-.content {
-  position: absolute;
-  top: 72%;
-  left: 0;
+  position: relative;
   width: 100%;
 }
 
@@ -31,4 +36,10 @@
   font-size: 60px;
   line-height: 20px;
   font-family: 'Allan', cursive;
+}
+
+.content {
+  margin-top: 1050px;
+  position: relative;
+  width: 100%;
 }

@@ -1,13 +1,14 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { FormsService } from '../../services/forms.service';
+import { HeightService } from '../../services/height.service';
 
 @Component({
   selector: 'contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
-export class ContactComponent implements OnInit {
+export class ContactComponent implements OnInit, AfterViewInit {
   layoutClass: string;
   spaceClass: string;
   isSubmitted: boolean;
@@ -15,7 +16,8 @@ export class ContactComponent implements OnInit {
   form: FormGroup;
   danger: string;
 
-  constructor(private formService: FormsService) { }
+  constructor(private formService: FormsService,
+              private heightService: HeightService) { }
 
   ngOnInit() {
     this.updateLayout(window.innerWidth);
@@ -44,10 +46,18 @@ export class ContactComponent implements OnInit {
     });
   }
 
+  @ViewChild('contact') elementView: ElementRef;
+
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
     this.updateLayout(window.innerWidth);
+    this.heightService.contactH = this.elementView.nativeElement.offsetHeight;
   }
+
+  ngAfterViewInit() {
+    this.heightService.contactH = this.elementView.nativeElement.offsetHeight;
+  }
+
 
   private updateLayout(width: number) {
     if(width >= 400){

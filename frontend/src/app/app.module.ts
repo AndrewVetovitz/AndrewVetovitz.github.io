@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Provider } from '@angular/core';
 
 // Components
 import { AppComponent } from './app.component';
@@ -19,6 +19,16 @@ import { ReactiveFormsModule } from '@angular/forms'
 import { FormsService } from './services/forms.service';
 import { HttpClientModule } from '@angular/common/http';
 
+// Nav bar scrolling
+import { NgxPageScrollModule } from 'ngx-page-scroll';
+
+// Page scrolling
+import { ScrollSpyModule } from 'ngx-scrollspy';
+
+
+// Services
+import { HeightService } from './services/height.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,10 +44,13 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     ReactiveFormsModule,
     HttpClientModule,
+    NgxPageScrollModule,
+    ScrollSpyModule.forRoot(),
     appRouting
   ],
   providers: [
-    FormsService
+    FormsService,
+    HeightService
   ],
   bootstrap: [ AppComponent ]
 })

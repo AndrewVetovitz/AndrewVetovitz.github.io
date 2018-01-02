@@ -1,26 +1,33 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
 
 import { WORKDATA } from './work-data';
+import { HeightService } from '../../services/height.service';
 
 @Component({
   selector: 'work',
   templateUrl: './work.component.html',
   styleUrls: ['./work.component.scss']
 })
-export class WorkComponent implements OnInit {
+export class WorkComponent implements OnInit, AfterViewInit {
   title: string;
   workdata = WORKDATA;
 
-  constructor() { }
+  constructor(private heightService: HeightService) { }
 
   ngOnInit() {
     this.updateTitle(window.innerWidth)
   }
 
+  @ViewChild('work') elementView: ElementRef;
 
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
     this.updateTitle(window.innerWidth);
+    this.heightService.workH = this.elementView.nativeElement.offsetHeight;
+  }
+
+  ngAfterViewInit() {
+    this.heightService.workH = this.elementView.nativeElement.offsetHeight;
   }
 
   private updateTitle(width: number) {

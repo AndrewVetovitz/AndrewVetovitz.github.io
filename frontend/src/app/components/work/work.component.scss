@@ -10,10 +10,22 @@ $image-width: $image-height * 1.23078;
   width: 100%;
 }
 
+.container {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
 @media (min-width: 750px) {
   .container {
     max-width: 925px;
   }
+}
+
+.header {
+  font-family: 'Bungee', cursive;
+  font-size: calc(1.51316vw + 41.673px);
+  font-weight: 500;
+  margin-bottom: 30px;
 }
 
 .p-div {
@@ -76,24 +88,5 @@ p {
   .content-buffer {
     width: 302px;
     margin: auto;
-  }
-}
-
-.container {
-  padding-top: 3em;
-  padding-bottom: 3em;
-}
-
-.header {
-  font-family: 'Bungee', cursive;
-  font-size: calc(1.51316vw + 41.673px);
-  font-weight: 500;
-  margin-bottom: 30px;
-}
-
-@media (max-width: 360px) {
-  .header {
-    width: 315px;
-    font-size: 46.848px;
   }
 }
