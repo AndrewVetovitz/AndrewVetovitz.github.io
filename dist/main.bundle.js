@@ -170,8 +170,7 @@ var AppModule = (function () {
 
 
 var websiteRoutes = [
-    { path: '', component: __WEBPACK_IMPORTED_MODULE_1__app_component__["a" /* AppComponent */] },
-    { path: '**', redirectTo: '', pathMatch: 'full' }
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_1__app_component__["a" /* AppComponent */] }
 ];
 var appRouting = __WEBPACK_IMPORTED_MODULE_0__angular_router__["e" /* RouterModule */].forRoot(websiteRoutes);
 
@@ -272,7 +271,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".about-container {\n  display: block; }\n\n.image-container {\n  width: 100%;\n  height: auto;\n  position: relative;\n  float: right;\n  overflow: visible; }\n\n.image {\n  background-image: url(" + __webpack_require__("../../../../../src/assets/images/mountain.png") + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center center;\n  min-height: 1848px;\n  width: 100%;\n  position: relative;\n  overflow: visible; }\n\n.title {\n  margin-top: -1500px;\n  color: #FFF;\n  font-size: 30px;\n  line-height: 31px;\n  position: relative;\n  width: 100%; }\n\n.name {\n  font-size: 60px;\n  line-height: 20px;\n  font-family: 'Allan', cursive; }\n\n.content {\n  margin-top: 1050px;\n  position: relative;\n  width: 100%; }\n", ""]);
+exports.push([module.i, ".about-container {\n  display: block; }\n\n.image-container {\n  width: 100%;\n  height: auto;\n  position: relative;\n  float: right;\n  overflow: visible; }\n\n.image {\n  background-image: url(https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515015167/mountain_fxeiu1.png);\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center center;\n  min-height: 1848px;\n  width: 100%;\n  position: relative;\n  overflow: visible; }\n\n.title {\n  margin-top: -1500px;\n  color: #FFF;\n  font-size: 30px;\n  line-height: 31px;\n  position: relative;\n  width: 100%; }\n\n.name {\n  font-size: 60px;\n  line-height: 20px;\n  font-family: 'Allan', cursive; }\n\n.content {\n  margin-top: 1050px;\n  position: relative;\n  width: 100%; }\n", ""]);
 
 // exports
 
@@ -338,7 +337,7 @@ var AboutComponent = (function () {
 /***/ "../../../../../src/app/components/contact-links/contact-links.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <ul class=\"nav justify-content-center fa-5x\">\n    <li>\n      <a href=\"https://github.com/AndrewVetovitz\" target=\"_blank\">\n        <div title=\"Githhub\" class=\"icon-container github-styling\">\n          <i class=\"fab fa-github icon-styling\"></i>\n        </div>\n      </a>\n    </li>\n    <li>\n      <a href=\"https://www.linkedin.com/in/andrewvetovitz\" target=\"_blank\">\n        <div title=\"Linkedin\" class=\"icon-container linkedin-styling\">\n          <i class=\"fab fa-linkedin-in icon-styling\"></i>\n        </div>\n      </a>\n    </li>\n    <li>\n      <a href=\"../../../assets/images/vetovitz_andrew_resume.pdf\" download>\n        <div title=\"Resume\" class=\"icon-container resume-styling\">\n          <i class=\"fas fa-file-alt icon-styling\"></i>\n        </div>\n      </a>\n    </li>\n    <li>\n      <a href=\"mailto:andrewvetovitz@gmail.com?subject=Hello!&body=Dear%20Andrew%2C%0D%0A%0D%0A\">\n        <div title=\"Email\" class=\"icon-container mail-styling\">\n          <i class=\"fas fa-envelope icon-styling\"></i>\n        </div>\n      </a>\n    </li>\n  </ul>\n</div>\n"
+module.exports = "<div class=\"container\">\n  <ul class=\"nav justify-content-center fa-5x\">\n    <li>\n      <a href=\"https://github.com/AndrewVetovitz\" target=\"_blank\">\n        <div title=\"Githhub\" class=\"icon-container github-styling\">\n          <i class=\"fab fa-github icon-styling\"></i>\n        </div>\n      </a>\n    </li>\n    <li>\n      <a href=\"https://www.linkedin.com/in/andrewvetovitz\" target=\"_blank\">\n        <div title=\"Linkedin\" class=\"icon-container linkedin-styling\">\n          <i class=\"fab fa-linkedin-in icon-styling\"></i>\n        </div>\n      </a>\n    </li>\n    <li>\n      <a href=\"../../../../images/vetovitz_andrew_resume.pdf\" download>\n        <div title=\"Resume\" class=\"icon-container resume-styling\">\n          <i class=\"fas fa-file-alt icon-styling\"></i>\n        </div>\n      </a>\n    </li>\n    <li>\n      <a href=\"mailto:andrewvetovitz@gmail.com?subject=Hello!&body=Dear%20Andrew%2C%0D%0A%0D%0A\">\n        <div title=\"Email\" class=\"icon-container mail-styling\">\n          <i class=\"fas fa-envelope icon-styling\"></i>\n        </div>\n      </a>\n    </li>\n  </ul>\n</div>\n"
 
 /***/ }),
 
@@ -684,10 +683,14 @@ var NavbarComponent = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PROJECTDATA; });
 var PROJECTDATA = [
-    { name: "Personal Website", link: "https://github.com/AndrewVetovitz/MyWebsite", source: "../../../assets/images/computerScreens.jpg" },
-    { name: "QuadTree Imaging", link: "https://github.com/AndrewVetovitz/QuadTreeImaging", source: "../../../assets/images/apple.png" },
-    { name: "Emoji Hunter", link: "https://github.com/skylerreimer/Emoji-Hunter", source: "../../../assets/images/emoji.svg" },
-    { name: "Project Kindness", link: "https://github.com/AndrewVetovitz/projectKindness", source: "../../../assets/images/heart.png" },
+    { name: "Personal Website", link: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014552/computerScreens_twyfnt.jpg",
+        source: "../../../assets/images/computerScreens.jpg" },
+    { name: "QuadTree Imaging", link: "https://github.com/AndrewVetovitz/QuadTreeImaging",
+        source: "http://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014567/apple_aqcjn0.png" },
+    { name: "Emoji Hunter", link: "https://github.com/skylerreimer/Emoji-Hunter",
+        source: "http://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014547/emoji_o9kni8.svg" },
+    { name: "Project Kindness", link: "https://github.com/AndrewVetovitz/projectKindness",
+        source: "http://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014546/heart_bbetjn.png" },
 ];
 
 
@@ -797,10 +800,10 @@ var WORKDATA = [
         alttext: "Goldman Sachs Logo",
         title: "Summer Anaylst Intern, Summer 2018",
         location: "New York, NY",
-        link: "http://www.goldmansachs.com/",
+        link: "http://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014573/goldman-sachs_logo_mbtp72.jpg",
         description: "Incoming 2018 Summer Analyst for Goldman Sachs" },
     { name: "The Scott's Miracle Gro Company",
-        url: "../../../assets/images/scotts_miracle_gro.png",
+        url: "http://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014549/scotts_miracle_gro_p2ced4.png",
         alttext: "The Scott's Miracle Gro Company",
         title: "Web Application Developer Intern, Summer 2017",
         location: "Marysville, OH",
@@ -810,7 +813,7 @@ var WORKDATA = [
             "Giving me new insite into buisness teamwork and working on core application backend and API functionality. " +
             "I also experienced my first buisness mistakes and trying to solve them, driving core buisness growth. " },
     { name: "IFAAADev",
-        url: "../../../assets/images/IFAADev.png",
+        url: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014562/IFAADev_gtycub.png",
         alttext: "IFAADev",
         title: "Independent Contractor, Since May 2017",
         location: "Cleveland, OH",
@@ -821,7 +824,7 @@ var WORKDATA = [
             "This posed significant challengs using web API's as well as hosting services and frontend technologies. " +
             "I had to work as a buisness analyst for this project as well to collect requirments and demo the projeject to the client. " },
     { name: "Mayfield High School",
-        url: "../../../assets/images/mayfield_high.jpg",
+        url: "http://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014555/mayfield_high_gqqedz.jpg",
         alttext: "Mayfield High School",
         title: "Class of 2014",
         location: "Mayfield Village, OH",
@@ -996,13 +999,6 @@ var HeightService = (function () {
 }());
 
 
-
-/***/ }),
-
-/***/ "../../../../../src/assets/images/mountain.png":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mountain.7941a7b8ceda45cc2e47.png";
 
 /***/ }),
 
