@@ -82,7 +82,6 @@ export class ContactComponent implements OnInit, AfterViewInit {
       };
 
       this.formService.postFormData(body).subscribe(data => {
-        console.log("success");
         this.form.reset();
       });
     } else {

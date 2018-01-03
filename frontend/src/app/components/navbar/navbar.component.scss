@@ -3,20 +3,69 @@
 $bc: #2D3047;
 $nav-text-color: $white;
 $nav-hover-color: $red;
+$toggle-button-color: #DDD;
+
+.container-fluid {
+  margin: 0 115px 0 35px;
+}
+
+@media (max-width: 991px) {
+  .container-fluid {
+    margin: 0 0 0 20px;
+  }
+}
+
+.navbar {
+  background-color: transparent;
+  min-height: $nav-height;
+  padding: 40px 10px 40px 10px;
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    padding: 0 20px 0 20px;
+  }
+}
 
 //navbar background
 .custom-nav {
+  padding: 0 20px 0 20px;
   background-color: $bc;
   min-height: $nav-height;
 }
 
+// Custum toggle button coloring
+.custom-toggle {
+  background: $toggle-button-color;
+  border-color: $toggle-button-color;
+}
+
+// Remove blue highlight around button toggle
+button:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
 .navbar-brand {
-  color: white;
-  font-size: 56px;
+  color: $nav-text-color;
+  font-size: calc(1.58vw + 30.9340px);
   font-family: 'Allan', cursive;
-  padding: 0 15px;
+  padding: 0;
   height: $nav-height;
   line-height: $nav-height;
+
+  //hover color
+  &:hover {
+    color: $nav-text-color;
+  }
+}
+
+.name-transition {
+  transition: opacity 1s;
+  opacity: 1;
 }
 
 .navbar-toggle {
@@ -33,35 +82,6 @@ $nav-hover-color: $red;
     line-height: 27px;
   }
 }
-
-//@media (min-width:992px) {
-//  #mainNav {
-//    padding-top: 25px;
-//    padding-bottom: 25px;
-//    -webkit-transition: padding-top .3s, padding-bottom .3s;
-//    -moz-transition: padding-top .3s, padding-bottom .3s;
-//    transition: padding-top .3s, padding-bottom .3s;
-//    border: none;
-//    background-color: transparent
-//  }
-//  #mainNav .navbar-brand {
-//    -webkit-transition: all .3s;
-//    -moz-transition: all .3s;
-//    transition: all .3s
-//  }
-//  #mainNav .navbar-nav .nav-item .nav-link {
-//    padding: 1.1em 1em!important
-//  }
-//  #mainNav.navbar-shrink {
-//    padding-top: 0;
-//    padding-bottom: 0;
-//    background-color: #212529
-//  }
-//  #mainNav.navbar-shrink .navbar-brand {
-//    font-size: 1.25em;
-//    padding: 12px 0
-//  }
-//}
 
 //navbar items
 ul {
@@ -80,6 +100,10 @@ ul {
 
     &.nav-link {
       text-align: center;
+    }
+
+    &:focus {
+      color: $nav-text-color;
     }
 
     //hover color
