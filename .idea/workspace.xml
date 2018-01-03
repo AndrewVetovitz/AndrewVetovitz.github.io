@@ -2,61 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d1a79b-f13a-428c-90de-0ae88895f605" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/IFAADev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/apple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/computerScreens.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/emoji.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/goldman-sachs_logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/mayfield_high.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/mountain.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/scotts_miracle_gro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/vetovitz_andrew_resume.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/images/website-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/montain-edits/mountain-edit.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/montain-edits/mountain-edit2.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/montain-edits/mountain-edit3.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/montain-edits/mountain-edit4.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/montain-edits/mountain.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/references.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/inline.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/inline.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/main.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/main.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/mountain.7941a7b8ceda45cc2e47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.bundle.js.map" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/IFAADev.png" afterPath="$PROJECT_DIR$/images/IFAADev.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/apple.png" afterPath="$PROJECT_DIR$/images/apple.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/computerScreens.jpg" afterPath="$PROJECT_DIR$/images/computerScreens.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/emoji.svg" afterPath="$PROJECT_DIR$/images/emoji.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/goldman-sachs_logo.jpg" afterPath="$PROJECT_DIR$/images/goldman-sachs_logo.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/heart.png" afterPath="$PROJECT_DIR$/images/heart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/mayfield_high.jpg" afterPath="$PROJECT_DIR$/images/mayfield_high.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/mountain.png" afterPath="$PROJECT_DIR$/images/mountain.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/scotts_miracle_gro.png" afterPath="$PROJECT_DIR$/images/scotts_miracle_gro.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/vetovitz_andrew_resume.pdf" afterPath="$PROJECT_DIR$/images/vetovitz_andrew_resume.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/website-logo.png" afterPath="$PROJECT_DIR$/images/website-logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/montain-edits/mountain-edit.xcf" afterPath="$PROJECT_DIR$/images/montain-edits/mountain-edit.xcf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/montain-edits/mountain-edit2.xcf" afterPath="$PROJECT_DIR$/images/montain-edits/mountain-edit2.xcf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/montain-edits/mountain-edit3.xcf" afterPath="$PROJECT_DIR$/images/montain-edits/mountain-edit3.xcf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/montain-edits/mountain-edit4.xcf" afterPath="$PROJECT_DIR$/images/montain-edits/mountain-edit4.xcf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/montain-edits/mountain.jpg" afterPath="$PROJECT_DIR$/images/montain-edits/mountain.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.ts" afterPath="$PROJECT_DIR$/src/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.routing.ts" afterPath="$PROJECT_DIR$/src/app/app.routing.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/about/about.component.scss" afterPath="$PROJECT_DIR$/src/app/components/about/about.component.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/contact-links/contact-links.component.html" afterPath="$PROJECT_DIR$/src/app/components/contact-links/contact-links.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/projects/project-data.ts" afterPath="$PROJECT_DIR$/src/app/components/projects/project-data.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/work/work-data.ts" afterPath="$PROJECT_DIR$/src/app/components/work/work-data.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="work-data.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="work-data.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/components/work/work-data.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="648">
+              <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -95,8 +42,8 @@
       <file leaf-file-name="project-data.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/projects/project-data.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="54">
+              <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -132,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -176,6 +123,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&quot;</find>
+      <find>http</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,10 +140,10 @@
         <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/components/work/work.component.ts" />
         <option value="$PROJECT_DIR$/src/app/components/work/work.component.html" />
-        <option value="$PROJECT_DIR$/src/app/components/projects/project-data.ts" />
-        <option value="$PROJECT_DIR$/src/app/components/work/work-data.ts" />
         <option value="$PROJECT_DIR$/src/app/components/about/about.component.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/app/components/work/work-data.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/projects/project-data.ts" />
       </list>
     </option>
   </component>
@@ -247,6 +195,40 @@
               <item name="andrewvetovitz.github.io-personal-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="andrewvetovitz.github.io-personal-website" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="andrewvetovitz.github.io-personal-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andrewvetovitz.github.io-personal-website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="andrewvetovitz.github.io-personal-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andrewvetovitz.github.io-personal-website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="andrewvetovitz.github.io-personal-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andrewvetovitz.github.io-personal-website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="andrewvetovitz.github.io-personal-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andrewvetovitz.github.io-personal-website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="andrewvetovitz.github.io-personal-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andrewvetovitz.github.io-personal-website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -292,18 +274,19 @@
       <option name="presentableId" value="Default" />
       <updated>1515006556789</updated>
       <workItem from="1515006558357" duration="81000" />
-      <workItem from="1515007656414" duration="6830000" />
+      <workItem from="1515007656414" duration="7147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6911000" />
+    <option name="totallyTimeSpent" value="7228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24905661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24905661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -531,22 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/projects/project-data.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/work/work-data.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/about/about.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -582,6 +549,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/projects/project-data.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/work/work-data.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
           <folding />
         </state>
       </provider>

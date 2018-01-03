@@ -6,7 +6,7 @@ export const WORKDATA: Workdata[] = [
     alttext: "Goldman Sachs Logo",
     title: "Summer Anaylst Intern, Summer 2018",
     location: "New York, NY",
-    link: "http://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014573/goldman-sachs_logo_mbtp72.jpg",
+    link: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014573/goldman-sachs_logo_mbtp72.jpg",
     description: "Incoming 2018 Summer Analyst for Goldman Sachs" },
   { name: "The Scott's Miracle Gro Company",
     url: "http://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014549/scotts_miracle_gro_p2ced4.png",
@@ -23,18 +23,18 @@ export const WORKDATA: Workdata[] = [
     alttext: "IFAADev",
     title: "Independent Contractor, Since May 2017",
     location: "Cleveland, OH",
-    link: "http://ifaadev.com/",
+    link: "https://ifaadev.com/",
     description: "" +
     "I currently work as a contractor helping bring alive applications and websites. " +
     "/my largest project is working on ourparking.space which is a digitized parking website for buisnesses and events. " +
     "This posed significant challengs using web API's as well as hosting services and frontend technologies. " +
     "I had to work as a buisness analyst for this project as well to collect requirments and demo the projeject to the client. " },
   { name: "Mayfield High School",
-    url: "http://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014555/mayfield_high_gqqedz.jpg",
+    url: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014555/mayfield_high_gqqedz.jpg",
     alttext: "Mayfield High School",
     title: "Class of 2014",
     location: "Mayfield Village, OH",
-    link: "http://www.mayfieldschools.org/mayfieldhighschool_home.aspx",
+    link: "https://www.mayfieldschools.org/mayfieldhighschool_home.aspx",
     description: "" +
     "I am grateful to Mayfield for allowing me to be myself. " +
     "This was the first time I truly had friends and being able to find myself as a person. " +
