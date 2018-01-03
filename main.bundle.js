@@ -170,7 +170,8 @@ var AppModule = (function () {
 
 
 var websiteRoutes = [
-    { path: '', component: __WEBPACK_IMPORTED_MODULE_1__app_component__["a" /* AppComponent */] }
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_1__app_component__["a" /* AppComponent */] },
+    { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 var appRouting = __WEBPACK_IMPORTED_MODULE_0__angular_router__["e" /* RouterModule */].forRoot(websiteRoutes);
 
@@ -683,7 +684,7 @@ var NavbarComponent = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PROJECTDATA; });
 var PROJECTDATA = [
-    { name: "Personal Website", link: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014552/computerScreens_twyfnt.jpg",
+    { name: "Personal Website", link: "https://github.com/AndrewVetovitz/andrewvetovitz.github.io-personal-website",
         source: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014552/computerScreens_twyfnt.jpg" },
     { name: "QuadTree Imaging", link: "https://github.com/AndrewVetovitz/QuadTreeImaging",
         source: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014567/apple_aqcjn0.png" },
@@ -796,14 +797,14 @@ var ProjectsComponent = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WORKDATA; });
 var WORKDATA = [
     { name: "Goldman Sachs",
-        url: "../../../assets/images/goldman-sachs_logo.jpg",
+        url: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014573/goldman-sachs_logo_mbtp72.jpg",
         alttext: "Goldman Sachs Logo",
         title: "Summer Anaylst Intern, Summer 2018",
         location: "New York, NY",
         link: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014573/goldman-sachs_logo_mbtp72.jpg",
         description: "Incoming 2018 Summer Analyst for Goldman Sachs" },
     { name: "The Scott's Miracle Gro Company",
-        url: "http://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014549/scotts_miracle_gro_p2ced4.png",
+        url: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014549/scotts_miracle_gro_p2ced4.png",
         alttext: "The Scott's Miracle Gro Company",
         title: "Web Application Developer Intern, Summer 2017",
         location: "Marysville, OH",
