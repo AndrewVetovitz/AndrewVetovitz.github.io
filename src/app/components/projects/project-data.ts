@@ -1,7 +1,7 @@
 import { ProjectData } from './project-data.class';
 
 export const PROJECTDATA: ProjectData[] = [
-  { name: "Personal Website", link: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014552/computerScreens_twyfnt.jpg",
+  { name: "Personal Website", link: "https://github.com/AndrewVetovitz/andrewvetovitz.github.io-personal-website",
       source: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014552/computerScreens_twyfnt.jpg" },
   { name: "QuadTree Imaging", link: "https://github.com/AndrewVetovitz/QuadTreeImaging",
       source: "https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515014567/apple_aqcjn0.png" },
