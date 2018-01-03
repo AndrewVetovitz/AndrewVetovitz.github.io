@@ -1,10 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/frontend/src/app/components/about/about.component.html" description="  &lt;!--&lt;div class=&quot;title text-center&quot;&gt;--&gt;&#10;    &lt;!--&lt;..." line="12" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbf6b8c3-0f8d-49b0-b883-95893e99f599" name="Default" comment="" />
+    <list default="true" id="dbf6b8c3-0f8d-49b0-b883-95893e99f599" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/.angular-cli.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/e2e/app.e2e-spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/e2e/app.po.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/e2e/tsconfig.e2e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/protractor.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/app.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/app.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/app.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/app.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/app.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/app.routing.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/about-content/about-content.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/about-content/about-content.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/about-content/about-content.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/about-content/about-content.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/about/about.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/about/about.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/about/about.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/about/about.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/contact-links/contact-links.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/contact-links/contact-links.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/contact-links/contact-links.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/contact-links/contact-links.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/contact/contact.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/contact/contact.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/contact/contact.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/contact/contact.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/navbar/navbar.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/navbar/navbar.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/navbar/navbar.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/navbar/navbar.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/projects/project-data.class.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/projects/project-data.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/projects/projects.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/projects/projects.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/projects/projects.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/projects/projects.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/work/work-data.class.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/work/work-data.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/work/work.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/work/work.component.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/work/work.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/components/work/work.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/services/forms.service.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/services/forms.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/services/height.service.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/app/services/height.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/images/IFAADev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/images/apple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/images/computerScreens.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/images/emoji.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/images/goldman-sachs_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/images/heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/images/mayfield_high.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/images/mountain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/images/scotts_miracle_gro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/images/vetovitz_andrew_resume.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/images/website-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/montain-edits/mountain-edit.xcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/montain-edits/mountain-edit2.xcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/montain-edits/mountain-edit3.xcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/montain-edits/mountain-edit4.xcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/montain-edits/mountain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/assets/references.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/environments/environment.prod.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/environments/environment.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/main.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/polyfills.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/styles.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/test.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/tsconfig.app.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/tsconfig.spec.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/src/typings.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/tsconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newWebsite/tslint.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/CSS/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Allan/Allan-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Allan/Allan-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Allan/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Audiowide/Audiowide-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Audiowide/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Bungee/Bungee-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Bungee/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Ceviche_One/CevicheOne-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Ceviche_One/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Chivo/Chivo-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Chivo/Chivo-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Chivo/Chivo-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Chivo/Chivo-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Chivo/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-ExtraBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-ExtraBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-ExtraLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-ExtraLightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-SemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-SemiBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/Exo-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Exo/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Farsan/Farsan-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Farsan/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Fira_Sans/FiraSans-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Fira_Sans/FiraSans-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Fira_Sans/FiraSans-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Fira_Sans/FiraSans-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Fira_Sans/FiraSans-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Fira_Sans/FiraSans-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Fira_Sans/FiraSans-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Fira_Sans/FiraSans-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Fira_Sans/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Lato/Lato-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Lato/Lato-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Lato/Lato-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Lato/Lato-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Lato/Lato-Hairline.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Lato/Lato-HairlineItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Lato/Lato-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Lato/Lato-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Lato/Lato-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Lato/Lato-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Lato/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Open_Sans/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Open_Sans/OpenSans-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Open_Sans/OpenSans-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Open_Sans/OpenSans-ExtraBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Open_Sans/OpenSans-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Open_Sans/OpenSans-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Open_Sans/OpenSans-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Open_Sans/OpenSans-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Open_Sans/OpenSans-Semibold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Open_Sans/OpenSans-SemiboldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/Roboto-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/Roboto-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/Roboto-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/Roboto-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/Roboto-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/Roboto-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Roboto/Roboto-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Space_Mono/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Space_Mono/SpaceMono-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Space_Mono/SpaceMono-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Space_Mono/SpaceMono-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Space_Mono/SpaceMono-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Trade_Winds/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Trade_Winds/TradeWinds-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Work_Sans/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Work_Sans/WorkSans-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Work_Sans/WorkSans-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Work_Sans/WorkSans-ExtraBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Work_Sans/WorkSans-ExtraLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Work_Sans/WorkSans-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Work_Sans/WorkSans-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Work_Sans/WorkSans-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Work_Sans/WorkSans-SemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/Google Fonts/fonts/Work_Sans/WorkSans-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/JS/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/bootstrap-3.3.7-dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/img/OSU_Logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/img/apple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/img/brain_queen_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/img/computerScreens.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/img/emoji.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/img/heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/img/mountain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/img/resume.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/img/vetovitz_andrew_resume.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/css/scrolling-nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/js/jquery.easing.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldWebsite/startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,112 +238,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="navbar.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/components/navbar/navbar.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#92#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.component.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/components/navbar/navbar.component.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/components/navbar/navbar.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/startbootstrap-scrolling-nav-gh-pages/LICENSE">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.component.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/components/navbar/navbar.component.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scrolling-nav.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scrolling-nav.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/startbootstrap-scrolling-nav-gh-pages/css/scrolling-nav.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -231,7 +348,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/frontend/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="122" />
@@ -266,34 +383,7 @@
             <path>
               <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="PersonalWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PersonalWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PersonalWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PersonalWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="startbootstrap-scrolling-nav-gh-pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PersonalWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="startbootstrap-scrolling-nav-gh-pages" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PersonalWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="startbootstrap-scrolling-nav-gh-pages" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -354,19 +444,18 @@
       <workItem from="1514425559280" duration="8298000" />
       <workItem from="1514487754895" duration="80078000" />
       <workItem from="1514822288075" duration="49433000" />
-      <workItem from="1514946311967" duration="4219000" />
+      <workItem from="1514946311967" duration="4819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254110000" />
+    <option name="totallyTimeSpent" value="254710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="122" y="-4" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2722372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2722372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33026585" sideWeight="0.5040431" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -722,9 +811,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -748,9 +835,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#92#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
