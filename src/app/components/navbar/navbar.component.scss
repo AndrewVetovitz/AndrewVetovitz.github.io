@@ -1,0 +1,119 @@
+@import '../../../variables';
+
+$bc: #2D3047;
+$nav-text-color: $white;
+$nav-hover-color: $red;
+$toggle-button-color: #DDD;
+
+.container-fluid {
+  margin: 0 115px 0 35px;
+}
+
+@media (max-width: 991px) {
+  .container-fluid {
+    margin: 0 0 0 20px;
+  }
+}
+
+.navbar {
+  background-color: transparent;
+  min-height: $nav-height;
+  padding: 40px 10px 40px 10px;
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    padding: 0 20px 0 20px;
+  }
+}
+
+//navbar background
+.custom-nav {
+  padding: 0 20px 0 20px;
+  background-color: $bc;
+  min-height: $nav-height;
+}
+
+// Custum toggle button coloring
+.custom-toggle {
+  background: $toggle-button-color;
+  border-color: $toggle-button-color;
+}
+
+// Remove blue highlight around button toggle
+button:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.navbar-brand {
+  color: $nav-text-color;
+  font-size: calc(1.58vw + 30.9340px);
+  font-family: 'Allan', cursive;
+  padding: 0;
+  height: $nav-height;
+  line-height: $nav-height;
+
+  //hover color
+  &:hover {
+    color: $nav-text-color;
+  }
+}
+
+.name-transition {
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: ($nav-height - 34px) / 2;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: ($nav-height - 27px) / 2;
+    padding-bottom: ($nav-height - 27px) / 2;
+    line-height: 27px;
+  }
+}
+
+//navbar items
+ul {
+  li a {
+    //navigation links design
+    color: $nav-text-color;
+    font-size: 21px;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+
+    padding: 15px;
+
+    // nav-bar items spacing and alignment
+    display: flex;
+    align-items: center;
+
+    &.nav-link {
+      text-align: center;
+    }
+
+    &:focus {
+      color: $nav-text-color;
+    }
+
+    //hover color
+    &:hover {
+      color: $nav-hover-color;
+    }
+
+    //active link color
+    &.active {
+      color: $nav-hover-color;
+    }
+  }
+}

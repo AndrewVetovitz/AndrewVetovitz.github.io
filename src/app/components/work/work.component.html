@@ -1,0 +1,31 @@
+<div class="background" #work>
+  <div class="container">
+    <h1 class="text-center header">{{ title }}</h1>
+    <div *ngFor="let info of workdata">
+      <div class="row content-buffer">
+        <div class="col-xl-5 col-lg-5 col-md-5 image-buffer">
+          <img src="{{ info.url }}" class="img-fluid work-images" alt="{{ info.alttext }}">
+        </div>
+        <div class="col-xl-7 col-lg-7 col-md-7 text">
+          <div class="p-div">
+            <h3 class="work-name">
+              <a  href="{{ info.link }}" target="_blank">{{ info.name }}</a>
+            </h3>
+          </div>
+          <div class="p-div">
+            <h6 class="title"><strong>{{ info.title }}</strong></h6>
+          </div>
+          <div class="p-div">
+            <p class="location"><strong>{{ info.location }}</strong></p>
+          </div>
+          <div>
+            <p class="space">&nbsp;</p>
+          </div>
+          <div class="p-div">
+            <p class="description">{{ info.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

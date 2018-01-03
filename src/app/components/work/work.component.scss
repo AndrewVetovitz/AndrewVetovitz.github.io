@@ -1,0 +1,92 @@
+@import '../../../variables';
+
+$image-height: 245.38px;
+$image-width: $image-height * 1.23078;
+
+.background {
+  min-height: -webkit-calc(100% - #{$nav-height});
+  min-height:    -moz-calc(100% - #{$nav-height});
+  min-height:         calc(100% - #{$nav-height});
+  width: 100%;
+}
+
+.container {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+@media (min-width: 750px) {
+  .container {
+    max-width: 925px;
+  }
+}
+
+.header {
+  font-family: 'Bungee', cursive;
+  font-size: calc(1.51316vw + 41.673px);
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.p-div {
+  margin-bottom: 5px;
+  min-height: 23px;
+}
+
+div img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.work-images {
+  border-radius: 30px;
+  height: $image-height;
+  width: $image-width;
+}
+
+.work-name a {
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #2274A5;
+  font-size: 24px;
+  height: 34px;
+}
+
+.title {
+  color: #8F3985;
+}
+
+.space {
+  height: 23px;
+}
+
+.location {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+}
+
+.description {
+  color: #656D6D;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.image-buffer {
+  margin-bottom: 20px;
+}
+
+.content-buffer {
+  margin-bottom: 35px;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+  .content-buffer {
+    width: 302px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Allan|Space+Mono');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

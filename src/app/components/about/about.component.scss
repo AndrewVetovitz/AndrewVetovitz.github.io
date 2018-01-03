@@ -1,0 +1,45 @@
+@import '../../../variables';
+
+.about-container {
+  display: block;
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: right;
+  overflow: visible;
+}
+
+.image {
+  background-image: url("../../../assets/images/mountain.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 1848px;
+  width: 100%;
+  position: relative;
+  overflow: visible;
+}
+
+.title {
+  margin-top: -1500px;
+  color: $white;
+  font-size: 30px;
+  line-height: 31px;
+  position: relative;
+  width: 100%;
+}
+
+.name {
+  font-size: 60px;
+  line-height: 20px;
+  font-family: 'Allan', cursive;
+}
+
+.content {
+  margin-top: 1050px;
+  position: relative;
+  width: 100%;
+}
