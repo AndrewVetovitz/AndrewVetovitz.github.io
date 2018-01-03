@@ -7,7 +7,7 @@ window.onload = function() {
 	}else{
 		document.getElementById("nameHeader").innerHTML = "A.G.V.";
 	}
-}
+};
 
 //adjusts name at the top of the page upon resizing
 window.onresize = function() {
@@ -18,7 +18,7 @@ window.onresize = function() {
 	}else{
 		document.getElementById("nameHeader").innerHTML = "A.G.V.";
 	}
-}
+};
 
 //closes the navigation menu on mobile after clicking a link
 $(document).ready(function () {
