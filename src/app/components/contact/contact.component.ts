@@ -14,7 +14,7 @@ export class ContactComponent implements OnInit, AfterViewInit {
   isSubmitted: boolean;
   submitted: boolean;
   form: FormGroup;
-  danger: string;
+  @ViewChild('contact') elementView: ElementRef;
 
   constructor(private formService: FormsService,
               private heightService: HeightService) { }
@@ -46,10 +46,8 @@ export class ContactComponent implements OnInit, AfterViewInit {
     });
   }
 
-  @ViewChild('contact') elementView: ElementRef;
-
   @HostListener('window:resize', ['$event'])
-  onResize(event: any) {
+  onResize() {
     this.updateLayout(window.innerWidth);
     this.heightService.contactH = this.elementView.nativeElement.offsetHeight;
   }
@@ -60,16 +58,16 @@ export class ContactComponent implements OnInit, AfterViewInit {
 
 
   private updateLayout(width: number) {
-    if(width >= 400){
+    if (width >= 400) {
       this.layoutClass = 'form-inline';
-      this.spaceClass = 'inputSpace'
+      this.spaceClass = 'inputSpace';
     } else {
       this.spaceClass = 'width100';
       this.layoutClass = '';
     }
   }
 
-  public submit(){
+  public submit() {
     if (this.form.valid) {
       this.isSubmitted = true;
       this.submitted = false;
@@ -81,7 +79,7 @@ export class ContactComponent implements OnInit, AfterViewInit {
         _gotcha: this.form.value._gotcha
       };
 
-      this.formService.postFormData(body).subscribe(data => {
+      this.formService.postFormData(body).subscribe(() => {
         this.form.reset();
       });
     } else {
@@ -94,7 +92,7 @@ export class ContactComponent implements OnInit, AfterViewInit {
   }
 
   cssInvalid(field: string) {
-    if(!this.isFieldValid(field) && this.submitted) {
+    if (!this.isFieldValid(field) && this.submitted) {
       return 'is-invalid';
     }
     return '';

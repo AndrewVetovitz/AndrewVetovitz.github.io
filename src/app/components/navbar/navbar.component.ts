@@ -9,7 +9,7 @@ import { HeightService } from '../../services/height.service';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnChanges, AfterViewChecked {
-  offset: string = '68';
+  offset = '68';
   transparent: string;
   name: string;
   height = [];
@@ -36,17 +36,17 @@ export class NavbarComponent implements OnChanges, AfterViewChecked {
 
   @HostListener('window:scroll', [])
   onScroll() {
-    let scrollH = window.pageYOffset ||document.documentElement.scrollTop || document.body.scrollTop || 0;
+    const scrollH = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
     this.checkContent(scrollH);
     this.customNav(scrollH);
   }
 
-  checkContent(scrollH: number){
-    if(scrollH >= 0 && scrollH < this.height[0]){
+  checkContent(scrollH: number) {
+    if (scrollH >= 0 && scrollH < this.height[0]) {
       this.updateLink('about');
-    } else if(scrollH >= this.height[0] && scrollH < this.height[1]){
+    } else if (scrollH >= this.height[0] && scrollH < this.height[1]) {
       this.updateLink('work');
-    } else if(scrollH >= this.height[1] && scrollH < this.height[2]){
+    } else if (scrollH >= this.height[1] && scrollH < this.height[2]) {
       this.updateLink('projects');
     } else {
       this.updateLink('contact');
@@ -54,7 +54,7 @@ export class NavbarComponent implements OnChanges, AfterViewChecked {
   }
 
   customNav(scrollH: number) {
-    if(scrollH < 1000) {
+    if (scrollH < 1000) {
       this.transparent = '';
       this.name = '';
     } else {
@@ -72,7 +72,7 @@ export class NavbarComponent implements OnChanges, AfterViewChecked {
 
   ngOnChanges() {
     this.selectSection$.subscribe((id) => {
-      this.updateLink(id)
+      this.updateLink(id);
     });
   }
 

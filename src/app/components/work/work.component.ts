@@ -11,17 +11,16 @@ import { HeightService } from '../../services/height.service';
 export class WorkComponent implements OnInit, AfterViewInit {
   title: string;
   workdata = WORKDATA;
+  @ViewChild('work') elementView: ElementRef;
 
   constructor(private heightService: HeightService) { }
 
   ngOnInit() {
-    this.updateTitle(window.innerWidth)
+    this.updateTitle(window.innerWidth);
   }
 
-  @ViewChild('work') elementView: ElementRef;
-
   @HostListener('window:resize', ['$event'])
-  onResize(event: any) {
+  onResize() {
     this.updateTitle(window.innerWidth);
     this.heightService.workH = this.elementView.nativeElement.offsetHeight;
   }
@@ -31,7 +30,7 @@ export class WorkComponent implements OnInit, AfterViewInit {
   }
 
   private updateTitle(width: number) {
-    if(width <= 575) {
+    if (width <= 575) {
       this.title = 'my life';
     } else {
       this.title = '───my life───';

@@ -11,6 +11,7 @@ import { HeightService } from '../../services/height.service';
 export class ProjectsComponent implements OnInit, AfterViewInit {
   title: string;
   projects = PROJECTDATA;
+  @ViewChild('project') elementView: ElementRef;
 
   constructor(private heightService: HeightService) { }
 
@@ -18,12 +19,10 @@ export class ProjectsComponent implements OnInit, AfterViewInit {
     this.updateTitle(window.innerWidth);
   }
 
-  @ViewChild('project') elementView: ElementRef;
-
   @HostListener('window:resize', ['$event'])
-  onResize(event: any) {
+  onResize() {
     this.updateTitle(window.innerWidth);
-    this.heightService.projectsH = this.elementView.nativeElement.offsetHeight
+    this.heightService.projectsH = this.elementView.nativeElement.offsetHeight;
   }
 
   ngAfterViewInit() {
@@ -31,7 +30,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit {
   }
 
   private updateTitle(width: number) {
-    if(width <= 575) {
+    if (width <= 575) {
       this.title = 'projects';
     } else {
       this.title = '───projects───';

@@ -7,10 +7,9 @@ import { HeightService } from '../../services/height.service';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements AfterViewInit {
+  @ViewChild('about') elementView: ElementRef;
 
   constructor(private heightService: HeightService) { }
-
-  @ViewChild('about') elementView: ElementRef;
 
   @HostListener('window:resize', ['$event'])
   onResize() {

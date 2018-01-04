@@ -15,12 +15,12 @@ export class AboutContentComponent implements OnInit {
   }
 
   @HostListener('window:resize', ['$event'])
-  onResize(event: any) {
+  onResize() {
     this.updateTitle(window.innerWidth);
   }
 
   private updateTitle(width: number) {
-    if(width <= 749) {
+    if (width <= 749) {
       this.title = 'my aspiration';
     } else {
       this.title = '───my aspiration───';
