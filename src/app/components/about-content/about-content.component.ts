@@ -1,7 +1,7 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'about-content',
+  selector: 'app-about-content',
   templateUrl: './about-content.component.html',
   styleUrls: ['./about-content.component.scss']
 })

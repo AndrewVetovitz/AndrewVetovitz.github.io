@@ -4,7 +4,7 @@ import { FormsService } from '../../services/forms.service';
 import { HeightService } from '../../services/height.service';
 
 @Component({
-  selector: 'contact',
+  selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })

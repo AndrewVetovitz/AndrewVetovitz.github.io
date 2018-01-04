@@ -4,7 +4,7 @@ import { PROJECTDATA } from './project-data';
 import { HeightService } from '../../services/height.service';
 
 @Component({
-  selector: 'projects',
+  selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss']
 })
