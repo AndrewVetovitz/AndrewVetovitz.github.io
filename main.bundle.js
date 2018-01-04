@@ -225,7 +225,7 @@ var AboutContentComponent = (function () {
     AboutContentComponent.prototype.ngOnInit = function () {
         this.updateTitle(window.innerWidth);
     };
-    AboutContentComponent.prototype.onResize = function (event) {
+    AboutContentComponent.prototype.onResize = function () {
         this.updateTitle(window.innerWidth);
     };
     AboutContentComponent.prototype.updateTitle = function (width) {
@@ -239,7 +239,7 @@ var AboutContentComponent = (function () {
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* HostListener */])('window:resize', ['$event']),
         __metadata("design:type", Function),
-        __metadata("design:paramtypes", [Object]),
+        __metadata("design:paramtypes", []),
         __metadata("design:returntype", void 0)
     ], AboutContentComponent.prototype, "onResize", null);
     AboutContentComponent = __decorate([
@@ -467,7 +467,7 @@ var ContactComponent = (function () {
             })
         });
     };
-    ContactComponent.prototype.onResize = function (event) {
+    ContactComponent.prototype.onResize = function () {
         this.updateLayout(window.innerWidth);
         this.heightService.contactH = this.elementView.nativeElement.offsetHeight;
     };
@@ -495,7 +495,7 @@ var ContactComponent = (function () {
                 message: this.form.value.message,
                 _gotcha: this.form.value._gotcha
             };
-            this.formService.postFormData(body).subscribe(function (data) {
+            this.formService.postFormData(body).subscribe(function () {
                 _this.form.reset();
             });
         }
@@ -519,7 +519,7 @@ var ContactComponent = (function () {
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* HostListener */])('window:resize', ['$event']),
         __metadata("design:type", Function),
-        __metadata("design:paramtypes", [Object]),
+        __metadata("design:paramtypes", []),
         __metadata("design:returntype", void 0)
     ], ContactComponent.prototype, "onResize", null);
     ContactComponent = __decorate([
@@ -541,7 +541,7 @@ var ContactComponent = (function () {
 /***/ "../../../../../src/app/components/navbar/navbar.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav [ngClass]=\"transparent\" class=\"navbar navbar-expand-lg navbar-light fixed-top\" id=\"main-nav\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-brand noselect name-transition\">{{name }}</div>\n    <button class=\"navbar-toggler navbar-toggler-right custom-toggle\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n      <ul class=\"navbar-nav ml-auto\">\n        <li class=\"nav-item\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\n          <a pageScroll\n             [pageScrollInterruptible]=\"false\"\n             [pageScrollDuration]=\"800\"\n             pageScrollOffset={{offset}}\n             class=\"nav-link\"\n             routerLink=\"/about\"\n             href=\"#about\"\n             [ngClass]=\"{'active': sections[0].active}\">About <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\n          <a pageScroll\n             [pageScrollInterruptible]=\"false\"\n             [pageScrollDuration]=\"800\"\n             pageScrollOffset={{offset}}\n             class=\"nav-link\"\n             routerLink=\"/work\"\n             href=\"#work\"\n             [ngClass]=\"{'active': sections[1].active}\">Work <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\n          <a pageScroll\n             [pageScrollInterruptible]=\"false\"\n             [pageScrollDuration]=\"800\"\n             pageScrollOffset={{offset}}\n             class=\"nav-link\"\n             routerLink=\"/projects\"\n             href=\"#projects\"\n             [ngClass]=\"{'active': sections[2].active}\">Projects <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\n          <a pageScroll\n             [pageScrollInterruptible]=\"false\"\n             [pageScrollDuration]=\"800\"\n             pageScrollOffset={{offset}}\n             class=\"nav-link\"\n             routerLink=\"/contact\"\n             href=\"#contact\"\n             [ngClass]=\"{'active': sections[3].active}\">Contact <span class=\"sr-only\">(current)</span></a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n"
+module.exports = "<nav [ngClass]=\"transparent\" class=\"navbar navbar-expand-lg navbar-light fixed-top\" id=\"main-nav\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-brand noselect name-transition\">{{name }}</div>\n    <button class=\"navbar-toggler navbar-toggler-right custom-toggle\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n      <ul class=\"navbar-nav ml-auto\">\n        <li class=\"nav-item\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\n          <a pageScroll\n             [pageScrollInterruptible]=\"false\"\n             [pageScrollDuration]=\"800\"\n             pageScrollOffset={{offset}}\n             class=\"nav-link\"\n             href=\"#about\"\n             [ngClass]=\"{'active': sections[0].active}\">About <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\n          <a pageScroll\n             [pageScrollInterruptible]=\"false\"\n             [pageScrollDuration]=\"800\"\n             pageScrollOffset={{offset}}\n             class=\"nav-link\"\n             href=\"#work\"\n             [ngClass]=\"{'active': sections[1].active}\">Work <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\n          <a pageScroll\n             [pageScrollInterruptible]=\"false\"\n             [pageScrollDuration]=\"800\"\n             pageScrollOffset={{offset}}\n             class=\"nav-link\"\n             href=\"#projects\"\n             [ngClass]=\"{'active': sections[2].active}\">Projects <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\" data-toggle=\"collapse\" data-target=\".navbar-collapse.show\">\n          <a pageScroll\n             [pageScrollInterruptible]=\"false\"\n             [pageScrollDuration]=\"800\"\n             pageScrollOffset={{offset}}\n             class=\"nav-link\"\n             href=\"#contact\"\n             [ngClass]=\"{'active': sections[3].active}\">Contact <span class=\"sr-only\">(current)</span></a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n"
 
 /***/ }),
 
@@ -750,7 +750,7 @@ var ProjectsComponent = (function () {
     ProjectsComponent.prototype.ngOnInit = function () {
         this.updateTitle(window.innerWidth);
     };
-    ProjectsComponent.prototype.onResize = function (event) {
+    ProjectsComponent.prototype.onResize = function () {
         this.updateTitle(window.innerWidth);
         this.heightService.projectsH = this.elementView.nativeElement.offsetHeight;
     };
@@ -772,7 +772,7 @@ var ProjectsComponent = (function () {
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* HostListener */])('window:resize', ['$event']),
         __metadata("design:type", Function),
-        __metadata("design:paramtypes", [Object]),
+        __metadata("design:paramtypes", []),
         __metadata("design:returntype", void 0)
     ], ProjectsComponent.prototype, "onResize", null);
     ProjectsComponent = __decorate([
@@ -892,7 +892,7 @@ var WorkComponent = (function () {
     WorkComponent.prototype.ngOnInit = function () {
         this.updateTitle(window.innerWidth);
     };
-    WorkComponent.prototype.onResize = function (event) {
+    WorkComponent.prototype.onResize = function () {
         this.updateTitle(window.innerWidth);
         this.heightService.workH = this.elementView.nativeElement.offsetHeight;
     };
@@ -914,7 +914,7 @@ var WorkComponent = (function () {
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* HostListener */])('window:resize', ['$event']),
         __metadata("design:type", Function),
-        __metadata("design:paramtypes", [Object]),
+        __metadata("design:paramtypes", []),
         __metadata("design:returntype", void 0)
     ], WorkComponent.prototype, "onResize", null);
     WorkComponent = __decorate([
