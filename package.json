@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
+    "prod": "ng build --prod && for i in dist/*; do brotli $i; done && echo \"andrewvetovitz.com\" > dist/CNAME",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -22,14 +23,14 @@
     "@angular/platform-browser-dynamic": "~5.1.2",
     "@angular/router": "~5.1.2",
     "bootstrap": "~4.0.0-beta.2",
-    "jquery": "~1.9.1",
-    "ngx-page-scroll": "~4.0.2",
+    "jquery": "~3.2.1",
     "popper.js": "~1.12.9",
+    "ngx-page-scroll": "~4.0.2",
     "rxjs": "~5.5.2",
     "zone.js": "~0.8.14"
   },
   "devDependencies": {
-    "@angular/cli": "1.6.2",
+    "@angular/cli": "1.6.3",
     "@angular/compiler-cli": "~5.1.2",
     "@angular/language-service": "~5.1.2",
     "@types/jasmine": "~2.5.53",

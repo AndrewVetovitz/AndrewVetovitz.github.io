@@ -8,23 +8,23 @@
       <label class="asterisk"><strong>Full Name</strong></label>
       <div [ngClass]="layoutClass">
         <div [ngClass]="spaceClass">
-          <input [ngClass]="cssInvalid('firstname')" class="form-control width100" formControlName="firstname">
-          <label><strong>First Name</strong></label>
+          <input [ngClass]="cssInvalid('firstname')" id="firstname" class="form-control width100" formControlName="firstname">
+          <label for="firstname"><strong>First Name</strong></label>
         </div>
         <div class="nameSpace"></div>
         <div [ngClass]="spaceClass">
-          <input [ngClass]="cssInvalid('lastname')" class="form-control width100" formControlName="lastname">
-          <label><strong>Last Name</strong></label>
+          <input [ngClass]="cssInvalid('lastname')" id="lastname" class="form-control width100" formControlName="lastname">
+          <label for="lastname"><strong>Last Name</strong></label>
         </div>
       </div>
     </div>
     <div class="form-group">
-      <strong><label class="asterisk">Email</label></strong>
-      <input [ngClass]="cssInvalid('email')" type="email" class="form-control" formControlName="email">
+      <strong><label for="email" class="asterisk">Email</label></strong>
+      <input [ngClass]="cssInvalid('email')" id="email" type="email" class="form-control" formControlName="email">
     </div>
     <div class="form-group">
-      <label class="asterisk"><strong>Message</strong></label>
-      <textarea [ngClass]="cssInvalid('message')" class="form-control" formControlName="message"></textarea>
+      <label for="message" class="asterisk"><strong>Message</strong></label>
+      <textarea [ngClass]="cssInvalid('message')" id="message" class="form-control" formControlName="message"></textarea>
     </div>
 
     <!--Anti scraper field-->
