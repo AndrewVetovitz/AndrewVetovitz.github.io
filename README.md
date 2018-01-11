@@ -1,8 +1,11 @@
-Personal website created with angular 5.
-
 # About
-I wanted to redo this website in order to fix the previous websites color schema. Also the fact that the website was not
-easily updatable made this project a necessity.
+I wanted to redo this website in order to fix the previous websites color schema. Also the fact that the old website
+was not easy to update made it harder for future proofing.
+
+# Tools
+Built with [Angular 5](https://angular.io/) and github pages
+[Boostrap 4 Beta 2](https://getbootstrap.com/) for UI design
+[ngx-page-scroll](https://github.com/Nolanus/ngx-page-scroll) for scrolling functionality
 
 # CDN's
 Uses Cloudinary CDN to host the images
