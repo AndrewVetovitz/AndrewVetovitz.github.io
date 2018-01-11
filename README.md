@@ -3,16 +3,16 @@ I wanted to redo this website in order to fix the previous websites color schema
 was not easy to update made it harder for future proofing.
 
 # Tools
-Built with [Angular 5](https://angular.io/) and github pages
-[Boostrap 4 Beta 2](https://getbootstrap.com/) for UI design
-[ngx-page-scroll](https://github.com/Nolanus/ngx-page-scroll) for scrolling functionality
+Built with [Angular 5](https://angular.io/) and github pages <br />
+[Boostrap 4 Beta 2](https://getbootstrap.com/) for UI design <br />
+[ngx-page-scroll](https://github.com/Nolanus/ngx-page-scroll) for scrolling functionality <br />
 
 # CDN's
-Uses Cloudinary CDN to host the images
-Google Fonts CDN for some of the fonts
-Hosted on github pages
-Formspree for the form submissions
+Uses Cloudinary CDN to host the images <br />
+Google Fonts CDN for some of the fonts <br />
+Hosted on github pages <br />
+Formspree for the form submissions <br />
 
 # Todo
-Add website caching in the future
-Dynamically sized images
+Add website caching in the future <br />
+Dynamically sized images <br />
