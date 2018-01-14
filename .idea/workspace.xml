@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4d1a79b-f13a-428c-90de-0ae88895f605" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/mountain.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/inline.4614325864328f1fd571.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/main.d2577beaff9c01a12ee8.bundle.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/personal-website.iml" afterPath="$PROJECT_DIR$/.idea/personal-website.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/about/about.component.scss" afterPath="$PROJECT_DIR$/src/app/components/about/about.component.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
-    </list>
+    <list default="true" id="b4d1a79b-f13a-428c-90de-0ae88895f605" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -377,12 +365,12 @@
       <workItem from="1515111413441" duration="1361000" />
       <workItem from="1515184581091" duration="691000" />
       <workItem from="1515522253308" duration="13478000" />
-      <workItem from="1515902222386" duration="13418000" />
+      <workItem from="1515902222386" duration="13844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48224000" />
+    <option name="totallyTimeSpent" value="48650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
