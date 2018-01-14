@@ -1,7 +1,7 @@
 export class Workdata {
   name: string;
   url: string;
-  alttext: string;
+  alt: string;
   title: string;
   location: string;
   link: string;
