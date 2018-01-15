@@ -1,3 +1,7 @@
+// Service worker
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -41,7 +45,8 @@ import { HeightService } from './services/height.service';
     ReactiveFormsModule,
     HttpClientModule,
     NgxPageScrollModule,
-    appRouting
+    appRouting,
+    ServiceWorkerModule.register('/ngsw-worker.js', {enabled: environment.production})
   ],
   providers: [
     FormsService,
