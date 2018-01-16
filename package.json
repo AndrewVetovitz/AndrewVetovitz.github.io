@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "prod": "ng build --prod && for i in dist/*; do brotli $i; done && echo \"andrewvetovitz.com\" > dist/CNAME",
+    "prod": "ng build --prod && echo \"andrewvetovitz.com\" > dist/CNAME",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",

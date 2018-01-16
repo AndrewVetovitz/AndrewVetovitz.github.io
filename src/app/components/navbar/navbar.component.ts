@@ -1,5 +1,4 @@
 import { Component, HostListener, Input, OnChanges, AfterViewChecked } from '@angular/core';
-
 import { ReplaySubject } from 'rxjs/ReplaySubject';
 import { HeightService } from '../../services/height.service';
 
