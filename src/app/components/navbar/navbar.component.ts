@@ -12,6 +12,7 @@ export class NavbarComponent implements OnChanges, AfterViewChecked {
   transparent: string;
   name: string;
   height = [];
+  test: string;
 
   constructor(private heightService: HeightService) { }
 
@@ -38,6 +39,7 @@ export class NavbarComponent implements OnChanges, AfterViewChecked {
     const scrollH = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
     this.checkContent(scrollH);
     this.customNav(scrollH);
+    this.test = 'collapse';
   }
 
   checkContent(scrollH: number) {
