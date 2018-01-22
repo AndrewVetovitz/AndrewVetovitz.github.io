@@ -13,7 +13,10 @@
 }
 
 .image {
-  background: url(https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515015167/mountain_fxeiu1.png) no-repeat center center;
+  background-image: url(https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1515015167/mountain_fxeiu1.png);
+  background-image: -webkit-image-set(url(https://res.cloudinary.com/dg25vxfyl/image/upload/q_100/v1516645040/mountain_r3xxna.webp) 1x);
+  background-position: center center;
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

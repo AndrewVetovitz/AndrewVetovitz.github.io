@@ -2,8 +2,9 @@
 I wanted to redo this website in order to fix the previous websites color schema. Also the fact that the old website
 was not easy to update made it harder for future proofing.
 
-# Building
+# Building and Deployment
 For server deployment run 'npm run prod' which will optimize the build bundle and add CNAME to the dist directory
+sudo angular-cli-ghpages
 
 # Tools
 Built with [Angular 5](https://angular.io/) and github pages <br />

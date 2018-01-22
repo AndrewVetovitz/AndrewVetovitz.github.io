@@ -4,7 +4,10 @@
     <div *ngFor="let info of workdata">
       <div class="row content-buffer">
         <div class="col-xl-5 col-lg-5 col-md-5 image-buffer">
-          <img src="{{ info.url }}" class="img-fluid work-images" alt="{{ info.alt }}">
+          <picture>
+            <source srcset="{{ info.webp_url }}" type="image/webp">
+            <img src="{{ info.url }}" class="img-fluid work-images" alt="{{ info.alt }}">
+          </picture>
         </div>
         <div class="col-xl-7 col-lg-7 col-md-7 text">
           <div class="p-div">
