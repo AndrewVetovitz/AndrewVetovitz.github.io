@@ -7,7 +7,8 @@
   <meta name="description" content="Professional and ambitious 20 something New York bound.
     Future Goldman Sachs intern and aspiring entrepreneur">
 
-  <link rel="preconnect" href="//res.cloudinary.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+  <link rel="preconnect" href="https://res.cloudinary.com/" crossorigin>
 
   <title>Andrew Vetovitz</title>
 
@@ -17,7 +18,20 @@
   <base href="">
 
   <!--Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Bungee%7CRoboto:400i%7CSpace+MonoOpen+Sans+Condensed:300%7CAllan" rel="stylesheet">
+  <script>
+      WebFontConfig = {
+          google: {
+              families: ['Open+Sans+Condensed:300','Roboto:400','Bungee','Space Mono','Allan']
+          }
+      };
+
+      (function(d) {
+          var wf = d.createElement('script'), s = d.scripts[0];
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+          wf.async = true;
+          s.parentNode.insertBefore(wf, s);
+      })(document);
+  </script>
 
   <!--Font Awesome-->
   <script src="https://use.fontawesome.com/releases/v5.0.4/js/brands.js"></script>
